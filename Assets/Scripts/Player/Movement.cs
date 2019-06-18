@@ -7,6 +7,8 @@ public class Movement : MonoBehaviour
     // Start is called before the first frame update
     [Header("Player vars")]
     public float max_speed = 0;
+    public float normal_max_speed = 10;
+    public float turbo_max_speed = 20;
     public float time_to_accel = 0;
     public float deceleration_multiplicator = 0;
     public float min_angle = 10;
@@ -22,8 +24,13 @@ public class Movement : MonoBehaviour
     private Vector2 direction = new Vector2(1, 0);
     private Vector2 last_direction = new Vector2(0, 0);
     private float current_speed = 0;
+
+    private bool turboing = false;
+
     Rigidbody2D rb;
     private SpriteRenderer Renderer2D;
+
+
 
 
     void Start()
@@ -38,12 +45,29 @@ public class Movement : MonoBehaviour
 
     }
 
+    IEnumerator Turbo()
+    {
+        max_speed = turbo_max_speed;
+        yield return new WaitForSeconds(1.0f); // Turbo duration
+        max_speed = normal_max_speed;
+        yield return new WaitForSeconds(2.0f); // Turbo cooldown
+        turboing = false;
+
+    }
+
     // Update is called once per frame
     void Update()
     {
         // Get wanted direction: Used only to know direction rotation and neutral/not neutral
         wanted_direction = new Vector2(Input.GetAxis(horizontal_input), Input.GetAxis(vertical_input)); 
         wanted_direction.Normalize();
+
+        if(!turboing && Input.GetButton("Dash 1"))
+        {
+            turboing = true;
+            StartCoroutine(Turbo());
+        }
+        
 
         // If the stick is neutral, go towards last direction and set wanted speed to 0
         float wanted_speed = max_speed;
