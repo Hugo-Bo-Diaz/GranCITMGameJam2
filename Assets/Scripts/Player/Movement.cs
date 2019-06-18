@@ -87,7 +87,7 @@ public class Movement : MonoBehaviour
 
         // Move 
         transform.SetPositionAndRotation(position, rotation);
-
-        
     }
+
+    public Vector2 GetDirection() { return direction; }
 }
