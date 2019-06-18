@@ -127,12 +127,12 @@ PrefabInstance:
     - target: {fileID: 1583884437621768849, guid: 96249ef749fb7464895ea76e661f4349,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1256
+      value: -522
       objectReference: {fileID: 0}
     - target: {fileID: 1583884437621768849, guid: 96249ef749fb7464895ea76e661f4349,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -60
+      value: -598
       objectReference: {fileID: 0}
     - target: {fileID: 1583884437621768849, guid: 96249ef749fb7464895ea76e661f4349,
         type: 3}
@@ -324,6 +324,36 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isTeamAlga: 0
   gameController: {fileID: 929627108}
+--- !u!1 &201295898
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 201295899}
+  m_Layer: 0
+  m_Name: Spawn Coral
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &201295899
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 201295898}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 23, y: -459, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1421085762}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &318852565
 GameObject:
   m_ObjectHideFlags: 0
@@ -993,7 +1023,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 911257079}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1929, y: -459, z: 0}
+  m_LocalPosition: {x: -1974, y: -459, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1421085762}
@@ -1038,7 +1068,7 @@ MonoBehaviour:
   score_alga: {fileID: 810284085}
   score_coral: {fileID: 318852566}
   ball: {fileID: 1541248780}
-  coral_ball_spawn: {fileID: 0}
+  coral_ball_spawn: {fileID: 201295898}
   alga_ball_spawn: {fileID: 911257079}
 --- !u!114 &929627109
 MonoBehaviour:
@@ -1283,6 +1313,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 911257080}
+  - {fileID: 201295899}
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

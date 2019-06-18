@@ -64,16 +64,14 @@ public class GameController : MonoBehaviour
         if(team_alga.touches >= 4)
         {
             // Alga touched too many times
-            TeamScored(true);
-            team_alga.UpdateScore();
+            TeamScored(true, "touches");
             team_alga.touches = 0;
         }
 
         if(team_coral.touches >= 4)
         {
             // Coral touched too many times
-            TeamScored(false);
-            team_coral.UpdateScore();
+            TeamScored(false, "touches");
             team_coral.touches = 0;
         }
     }
@@ -92,28 +90,33 @@ public class GameController : MonoBehaviour
         }
     }
 
-    IEnumerator ResetGame()
+    IEnumerator ResetGame(string team, string point_type)
     {
         // Display UI
 
         yield return new WaitForSeconds(2.0f);
-        ball.transform.SetPositionAndRotation(alga_ball_spawn.transform.position, Quaternion.identity);
-        yield return new WaitForSeconds(2.0f);
-        ball.transform.SetPositionAndRotation(alga_ball_spawn.transform.position, Quaternion.identity);
+        if(team == "alga") ball.transform.SetPositionAndRotation(alga_ball_spawn.transform.position, Quaternion.identity);
+        else ball.transform.SetPositionAndRotation(coral_ball_spawn.transform.position, Quaternion.identity);
 
     }
-    public void TeamScored(bool Team1Scored)
+    public void TeamScored(bool Team1Scored, string type)
     {
+        string team = "";
         if (Team1Scored)
         {
             team_alga.score += 1;
+            team = "alga";
+            team_alga.UpdateScore();
         }
-        if (!Team1Scored)
+        else
         {
             team_coral.score += 1;
+            team = "coral";
+            team_coral.UpdateScore();
         }
 
+
         // Reset ball
-        StartCoroutine("ResetGame");
+        StartCoroutine(ResetGame(team, type));
     }
 }
