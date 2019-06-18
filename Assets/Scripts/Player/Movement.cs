@@ -87,7 +87,7 @@ public class Movement : MonoBehaviour
         // Calculate this frame direction (should use "direction" var)
         direction.Normalize();
         last_direction = direction;
-        Vector2 movement = direction * current_speed;
+        Vector2 movement = direction * current_speed * Time.deltaTime * 1000 / 16;
      
         // Apply speed and set rotation
         Quaternion rotation = Quaternion.Euler(new Vector3(0, 0, current_angle));

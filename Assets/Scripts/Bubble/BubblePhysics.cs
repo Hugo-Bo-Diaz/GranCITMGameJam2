@@ -25,11 +25,13 @@ public class BubblePhysics : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Vector2 new_direction = direction.normalized * current_speed + new Vector2(0f, 1f) * gravity_magnitude;
-        current_speed -= water_resistance;
+        Vector2 new_direction = direction.normalized * current_speed + new Vector2(0f, 1f) * gravity_magnitude * Time.deltaTime * 1000 / 16;
+        current_speed -= water_resistance * Time.deltaTime * 1000 / 16;
         current_speed = Mathf.Clamp(current_speed, min_speed, max_speed);
         float magnitude = Mathf.Clamp(new_direction.magnitude, min_speed, max_speed);
-        direction = new_direction.normalized * magnitude;
+
+
+        direction = new_direction.normalized * magnitude * Time.deltaTime * 1000 / 16;
         Vector3 new_position = new Vector3(transform.position.x + direction.x, transform.position.y + direction.y, transform.position.z);
         transform.SetPositionAndRotation(new_position, transform.rotation);
 
