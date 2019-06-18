@@ -74,7 +74,7 @@ public class Attack : MonoBehaviour
         yield return new WaitForSeconds(0.1f);
         Time.timeScale = 1.0f;
         physics.Pause(false);
-        physics.ApplyHit(movement.GetWantedDirection(), attack_force);
+        
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -83,8 +83,7 @@ public class Attack : MonoBehaviour
         {
             melee_attack.enabled = false;
             BubblePhysics physics = collision.gameObject.GetComponent<BubblePhysics>();
-            physics.Pause(true);
-            StartCoroutine("TemporalTimeStop", physics);
+            physics.ApplyHit(movement.GetWantedDirection(), attack_force);
         }
     }
 
