@@ -67,16 +67,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8775798304591461847, guid: 311ea044c4d0e814284377da89fe4632,
-        type: 3}
-      propertyPath: horizontal_input
-      value: Horizontal 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 8775798304591461847, guid: 311ea044c4d0e814284377da89fe4632,
-        type: 3}
-      propertyPath: vertical_input
-      value: Vertical 3
-      objectReference: {fileID: 0}
     - target: {fileID: 6408557719396390661, guid: 311ea044c4d0e814284377da89fe4632,
         type: 3}
       propertyPath: melee_attack
@@ -91,6 +81,21 @@ PrefabInstance:
         type: 3}
       propertyPath: team
       value: coral
+      objectReference: {fileID: 0}
+    - target: {fileID: 8775798304591461847, guid: 311ea044c4d0e814284377da89fe4632,
+        type: 3}
+      propertyPath: horizontal_input
+      value: Horizontal 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8775798304591461847, guid: 311ea044c4d0e814284377da89fe4632,
+        type: 3}
+      propertyPath: vertical_input
+      value: Vertical 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8775798304591461847, guid: 311ea044c4d0e814284377da89fe4632,
+        type: 3}
+      propertyPath: dash_input
+      value: Dash 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 311ea044c4d0e814284377da89fe4632, type: 3}

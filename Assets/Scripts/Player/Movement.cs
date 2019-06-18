@@ -18,6 +18,7 @@ public class Movement : MonoBehaviour
     [Header("Input")]
     public string horizontal_input = "Horizontal 1";
     public string vertical_input = "Vertical 1";
+    public string dash_input = "Dash 1";
 
 
     private Vector2 wanted_direction;
