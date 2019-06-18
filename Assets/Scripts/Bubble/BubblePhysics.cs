@@ -10,12 +10,12 @@ public class BubblePhysics : MonoBehaviour
     public float water_resistance = 0.1f;
     public float gravity_magnitude = 0.0f;
 
+    public float time_ungravity = 1;
+    public float time_ungravity_start = -10;
+
+
     float current_speed = 0.5f;
-    
     Vector2 direction = new Vector2(0f, 0f);
-
-    bool paused = false;
-
     Rigidbody2D rb;
 
 
@@ -28,19 +28,25 @@ public class BubblePhysics : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (!paused) { 
-            Vector2 new_direction = direction.normalized * current_speed + new Vector2(0f, 1f) * gravity_magnitude * Time.deltaTime * 1000 / 16;
-            //  current_speed -= water_resistance * Time.deltaTime * 1000 / 16;
-            //if(new_direction.y > 0)
-            current_speed = new_direction.magnitude;
-                current_speed = Mathf.Clamp(current_speed, min_speed, max_speed);
-            float magnitude = Mathf.Clamp(new_direction.magnitude, min_speed, max_speed);
+        Vector2 new_direction = direction.normalized * current_speed + new Vector2(0f, 1f) * gravity_magnitude * Time.deltaTime * 1000 / 16;
+        current_speed -= water_resistance * Time.deltaTime * 1000 / 16;
 
+        current_speed = new_direction.magnitude;
 
-            direction = new_direction;
-            Vector3 new_position = new Vector3(transform.position.x + direction.x, transform.position.y + direction.y, transform.position.z);
-            rb.MovePosition(new_position);
+        float frame_max_speed = min_speed;
+
+        if (Time.time - time_ungravity_start < time_ungravity)
+        {
+            frame_max_speed = max_speed;
         }
+
+        if (new_direction.y > 0)  current_speed = Mathf.Clamp(current_speed, min_speed, frame_max_speed);
+        else current_speed = Mathf.Clamp(current_speed, 0, max_speed);
+
+
+        direction = new_direction;
+        Vector3 new_position = new Vector3(transform.position.x + direction.x, transform.position.y + direction.y, transform.position.z);
+        rb.MovePosition(new_position);
 
     }
 
@@ -48,11 +54,8 @@ public class BubblePhysics : MonoBehaviour
     {
         direction = new_direction.normalized;
         current_speed = speed;
-    }
 
-    public void Pause(bool pause)
-    {
-        paused = pause;
+        time_ungravity_start = Time.time;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

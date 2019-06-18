@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1583884437621768850}
   - component: {fileID: 1583884437621768851}
   - component: {fileID: 1541248784}
+  - component: {fileID: 8374991484054211099}
   m_Layer: 9
   m_Name: Bubble
   m_TagString: Ball
@@ -93,10 +94,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a2da0af0995fa744ae12da974cc51e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  max_speed: 30
-  min_speed: 3
-  water_resistance: 0.1
-  gravity_magnitude: 0.5
+  max_speed: 20
+  min_speed: 5
+  water_resistance: 0.3
+  gravity_magnitude: 0.2
+  time_ungravity: 1
+  time_ungravity_start: -10
 --- !u!58 &1541248784
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -113,3 +116,24 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.1
+--- !u!50 &8374991484054211099
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1583884437621768860}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
