@@ -22,17 +22,20 @@ public class Movement : MonoBehaviour
     private Vector2 direction = new Vector2(1, 0);
     private Vector2 last_direction = new Vector2(0, 0);
     private float current_speed = 0;
-    Collider2D capsule;
-
     Rigidbody2D rb;
+    private SpriteRenderer Renderer2D;
+
 
     void Start()
     {
         direction.x = 1;
         direction.Normalize();
-        capsule = GetComponent<Collider2D>();
+
         rotation_speed *= Mathf.Deg2Rad;
         rb = GetComponent<Rigidbody2D>();
+
+        Renderer2D = GetComponent<SpriteRenderer>();
+
     }
 
     // Update is called once per frame
@@ -85,7 +88,7 @@ public class Movement : MonoBehaviour
         // Calculate this frame direction (should use "direction" var)
         direction.Normalize();
         last_direction = direction;
-        Vector2 movement = direction * current_speed;
+        Vector2 movement = direction * current_speed * Time.deltaTime * 1000 / 16;
      
         // Apply speed and set rotation
         Quaternion rotation = Quaternion.Euler(new Vector3(0, 0, current_angle));
@@ -111,10 +114,14 @@ public class Movement : MonoBehaviour
         //rb.velocity = movement;
         position.x += movement.x;
         position.y += movement.y;
+
         //// Move 
         rb.MovePosition(position);
         rb.MoveRotation(current_angle);
         //transform.SetPositionAndRotation(position, rotation);
+
+        Renderer2D.flipY = direction.x < 0;
+
     }
 
     public Vector2 GetDirection() { return direction; }

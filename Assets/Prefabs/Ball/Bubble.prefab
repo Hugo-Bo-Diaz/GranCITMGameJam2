@@ -93,7 +93,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a2da0af0995fa744ae12da974cc51e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  max_speed: 20
+  max_speed: 30
   min_speed: 3
   water_resistance: 0.1
   gravity_magnitude: 0.5

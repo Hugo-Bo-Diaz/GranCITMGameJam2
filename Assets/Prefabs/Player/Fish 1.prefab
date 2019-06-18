@@ -12,9 +12,13 @@ GameObject:
   - component: {fileID: 2388635432354851773}
   - component: {fileID: 2388635432354851774}
   - component: {fileID: 1308590444}
+<<<<<<< HEAD
   - component: {fileID: 8092999348980203458}
   - component: {fileID: 3825176296146172958}
   m_Layer: 8
+=======
+  m_Layer: 0
+>>>>>>> 6ffa2ce916d5acf7475aaeffb98f9c9e54a3000d
   m_Name: Fish 1
   m_TagString: Player
   m_Icon: {fileID: 0}
