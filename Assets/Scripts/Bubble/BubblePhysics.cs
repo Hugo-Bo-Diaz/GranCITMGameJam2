@@ -40,9 +40,18 @@ public class BubblePhysics : MonoBehaviour
         }
     }
 
-    void ApplyHit(Vector2 new_direction, float speed)
+    public void ApplyHit(Vector2 new_direction, float speed)
     {
-        direction = new_direction;
+        direction = new_direction.normalized;
         current_speed = speed;
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        Debug.Log("bum");
+        if (collision.gameObject.tag == "Player")
+        {
+            
+        }
     }
 }

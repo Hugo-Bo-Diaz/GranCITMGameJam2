@@ -2,10 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Score : MonoBehaviour
+public class FieldSwitch : MonoBehaviour
 {
-    GUIText score;
-    Team team;
+    public GameController game_controller;
     // Start is called before the first frame update
     void Start()
     {
@@ -15,11 +14,14 @@ public class Score : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (team.isTeam1)
-            score.text = "Team 1 Score: " + team.score.ToString();
-        else
-            score.text = "Team 2 Score: " + team.score.ToString();
+        
     }
 
-    
+    void OnTriggerEnter(Collider other)
+    {
+       //if(other.tag == "Ball")
+       // {
+
+       // }
+    }
 }
