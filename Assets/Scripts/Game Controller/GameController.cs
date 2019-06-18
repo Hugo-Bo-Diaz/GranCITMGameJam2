@@ -61,21 +61,12 @@ public class GameController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(team_alga.touches >= 4)
-        {
-            // Alga touched too many times
-            TeamScored(true);
-            team_alga.UpdateScore();
-            team_alga.touches = 0;
-        }
+        // Alga touched too many times
+        if (team_alga.touches >= 4) TeamScored("coral", "touches");
 
-        if(team_coral.touches >= 4)
-        {
-            // Coral touched too many times
-            TeamScored(false);
-            team_coral.UpdateScore();
-            team_coral.touches = 0;
-        }
+        // Coral touched too many times
+        if(team_coral.touches >= 4) TeamScored("alga", "touches");
+
     }
 
     public void AddTouchTo(string team)
@@ -92,28 +83,39 @@ public class GameController : MonoBehaviour
         }
     }
 
-    IEnumerator ResetGame()
+    IEnumerator ResetGame(string team, string point_type)
     {
         // Display UI
 
         yield return new WaitForSeconds(2.0f);
-        ball.transform.SetPositionAndRotation(alga_ball_spawn.transform.position, Quaternion.identity);
-        yield return new WaitForSeconds(2.0f);
-        ball.transform.SetPositionAndRotation(alga_ball_spawn.transform.position, Quaternion.identity);
+        if(team == "alga") ball.transform.SetPositionAndRotation(alga_ball_spawn.transform.position, Quaternion.identity);
+        else ball.transform.SetPositionAndRotation(coral_ball_spawn.transform.position, Quaternion.identity);
 
     }
-    public void TeamScored(bool Team1Scored)
+    public void TeamScored(string team, string type)
     {
-        if (Team1Scored)
+        if (team == "alga")
         {
             team_alga.score += 1;
+            team_alga.UpdateScore();
         }
-        if (!Team1Scored)
+        else
         {
             team_coral.score += 1;
+            team_coral.UpdateScore();
         }
 
+        team_alga.touches = 0;
+        team_coral.touches = 0;
+
+
         // Reset ball
-        StartCoroutine("ResetGame");
+        StartCoroutine(ResetGame(team, type));
+    }
+
+    public string LastTouchedPoint()
+    {
+        if (team_alga.touches != 0) return "coral";
+        else return "alga";
     }
 }
