@@ -436,6 +436,7 @@ RectTransform:
   m_AnchoredPosition: {x: -202, y: -480}
   m_SizeDelta: {x: 304.29, y: 119.5}
   m_Pivot: {x: 0.5, y: 0.5}
+<<<<<<< HEAD
 --- !u!1 &964861239
 GameObject:
   m_ObjectHideFlags: 0
@@ -620,6 +621,8 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 67.02187, y: 2308.8826}
   m_EdgeRadius: 0
+=======
+>>>>>>> 9bc2262f233f5b1f655c1fab87870da6ca574c55
 --- !u!1 &1005065872
 GameObject:
   m_ObjectHideFlags: 0
@@ -1126,3 +1129,72 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1583884437999165355
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1583884437621768860, guid: 96249ef749fb7464895ea76e661f4349,
+        type: 3}
+      propertyPath: m_Name
+      value: Bubble
+      objectReference: {fileID: 0}
+    - target: {fileID: 1583884437621768849, guid: 96249ef749fb7464895ea76e661f4349,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 744
+      objectReference: {fileID: 0}
+    - target: {fileID: 1583884437621768849, guid: 96249ef749fb7464895ea76e661f4349,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -60
+      objectReference: {fileID: 0}
+    - target: {fileID: 1583884437621768849, guid: 96249ef749fb7464895ea76e661f4349,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1583884437621768849, guid: 96249ef749fb7464895ea76e661f4349,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1583884437621768849, guid: 96249ef749fb7464895ea76e661f4349,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1583884437621768849, guid: 96249ef749fb7464895ea76e661f4349,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1583884437621768849, guid: 96249ef749fb7464895ea76e661f4349,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1583884437621768849, guid: 96249ef749fb7464895ea76e661f4349,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1583884437621768849, guid: 96249ef749fb7464895ea76e661f4349,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1583884437621768849, guid: 96249ef749fb7464895ea76e661f4349,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1583884437621768849, guid: 96249ef749fb7464895ea76e661f4349,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 96249ef749fb7464895ea76e661f4349, type: 3}

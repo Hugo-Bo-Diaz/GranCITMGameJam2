@@ -1,11 +1,8 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
-guid: 5269827bc728c0f409d88d40c4780ec1
-=======
-guid: f247f1810f7502546b2c4a9aaccf90ab
->>>>>>> 9bc2262f233f5b1f655c1fab87870da6ca574c55
+guid: c511af8c111e53048a0e9dc34e3bc1c6
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: ANIMATION_0
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -44,9 +41,9 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -64,10 +61,21 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 2
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -75,15 +83,31 @@ TextureImporter:
     androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: ANIMATION_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 500
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5c34b743cf5ba74db3fb9ebaa2c6bf1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-<<<<<<< HEAD
-    spriteID: 7affd6cbb2d7cd0439def2416b591f5f
-=======
-    spriteID: 76c76f1b3ea48d64eb3c2b50996b8331
->>>>>>> 9bc2262f233f5b1f655c1fab87870da6ca574c55
+    spriteID: bcf88b67410f2ed42ba7a362a7337d72
     vertices: []
     indices: 
     edges: []
