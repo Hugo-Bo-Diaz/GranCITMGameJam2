@@ -45,6 +45,10 @@ public class GameController : MonoBehaviour
     public Text score_alga;
     public Text score_coral;
 
+    public GameObject ball;
+    public GameObject coral_ball_spawn;
+    public GameObject alga_ball_spawn;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -88,6 +92,16 @@ public class GameController : MonoBehaviour
         }
     }
 
+    IEnumerator ResetGame()
+    {
+        // Display UI
+
+        yield return new WaitForSeconds(2.0f);
+        ball.transform.SetPositionAndRotation(alga_ball_spawn.transform.position, Quaternion.identity);
+        yield return new WaitForSeconds(2.0f);
+        ball.transform.SetPositionAndRotation(alga_ball_spawn.transform.position, Quaternion.identity);
+
+    }
     public void TeamScored(bool Team1Scored)
     {
         if (Team1Scored)
@@ -100,5 +114,6 @@ public class GameController : MonoBehaviour
         }
 
         // Reset ball
+        StartCoroutine("ResetGame");
     }
 }
