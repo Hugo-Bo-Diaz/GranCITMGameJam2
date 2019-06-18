@@ -17,7 +17,7 @@ public class Movement : MonoBehaviour
     public string vertical_input = "Vertical 1";
 
 
-
+    private Vector2 wanted_direction;
     private Vector2 direction = new Vector2(1, 0);
     private Vector2 last_direction = new Vector2(0, 0);
     private float current_speed = 0;
@@ -41,7 +41,7 @@ public class Movement : MonoBehaviour
     void Update()
     {
         // Get wanted direction: Used only to know direction rotation and neutral/not neutral
-        Vector2 wanted_direction = new Vector2(Input.GetAxis(horizontal_input), Input.GetAxis(vertical_input)); 
+        wanted_direction = new Vector2(Input.GetAxis(horizontal_input), Input.GetAxis(vertical_input)); 
         wanted_direction.Normalize();
 
         // If the stick is neutral, go towards last direction and set wanted speed to 0
@@ -103,4 +103,5 @@ public class Movement : MonoBehaviour
     }
 
     public Vector2 GetDirection() { return direction; }
+    public Vector2 GetWantedDirection() { return wanted_direction; }
 }

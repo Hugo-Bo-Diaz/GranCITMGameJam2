@@ -68,12 +68,13 @@ public class Attack : MonoBehaviour
 
     }
 
-    IEnumerator TemporalTimeStop(Collider2D collision)
+    IEnumerator TemporalTimeStop(BubblePhysics physics)
     {
         Time.timeScale = 0.1f;
         yield return new WaitForSeconds(0.1f);
         Time.timeScale = 1.0f;
-        collision.gameObject.GetComponent<BubblePhysics>().ApplyHit(movement.GetDirection(), attack_force);
+        physics.Pause(false);
+        physics.ApplyHit(movement.GetWantedDirection(), attack_force);
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -81,7 +82,9 @@ public class Attack : MonoBehaviour
         if (collision.gameObject.tag == "Ball")
         {
             melee_attack.enabled = false;
-            StartCoroutine("TemporalTimeStop",  collision);
+            BubblePhysics physics = collision.gameObject.GetComponent<BubblePhysics>();
+            physics.Pause(true);
+            StartCoroutine("TemporalTimeStop", physics);
         }
     }
 
