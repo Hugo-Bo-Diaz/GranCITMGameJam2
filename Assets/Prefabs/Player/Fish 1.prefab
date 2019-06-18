@@ -115,7 +115,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48aeb8a6ab7fbca41aa6db3e4ed00db5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  melee_attack: {fileID: 0}
+  melee_attack: {fileID: 2499272648269339556}
   startup: 0
   attack_duration: 2
   attack_force: 20

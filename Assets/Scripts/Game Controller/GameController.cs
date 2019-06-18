@@ -26,7 +26,7 @@ public struct Team
     public void UpdateScore()
     {
         if (isTeam1)
-            gui_score.text = "Team Alga  " +score.ToString();
+            gui_score.text = "Team Alga  " +  score.ToString();
         else
             gui_score.text = score.ToString() + "  Team Coral" ;
     }

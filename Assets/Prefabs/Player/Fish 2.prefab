@@ -15,12 +15,12 @@ PrefabInstance:
     - target: {fileID: 2388635432354851772, guid: 696ab7ddff6a7e0489262064e5587e5c,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -907
       objectReference: {fileID: 0}
     - target: {fileID: 2388635432354851772, guid: 696ab7ddff6a7e0489262064e5587e5c,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3
+      value: 182
       objectReference: {fileID: 0}
     - target: {fileID: 2388635432354851772, guid: 696ab7ddff6a7e0489262064e5587e5c,
         type: 3}
@@ -78,18 +78,18 @@ PrefabInstance:
       value: Vertical 2
       objectReference: {fileID: 0}
     - target: {fileID: 1308590444, guid: 696ab7ddff6a7e0489262064e5587e5c, type: 3}
+      propertyPath: melee_attack
+      value: 
+      objectReference: {fileID: 8809311839050239437}
+    - target: {fileID: 1308590444, guid: 696ab7ddff6a7e0489262064e5587e5c, type: 3}
       propertyPath: attack_str
       value: Melee Attack 2
       objectReference: {fileID: 0}
-    - target: {fileID: 1308590444, guid: 696ab7ddff6a7e0489262064e5587e5c, type: 3}
-      propertyPath: melee_attack
-      value: 
-      objectReference: {fileID: 6408557719396390660}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 696ab7ddff6a7e0489262064e5587e5c, type: 3}
---- !u!61 &6408557719396390660 stripped
+--- !u!61 &8809311839050239437 stripped
 BoxCollider2D:
-  m_CorrespondingSourceObject: {fileID: 1308590445, guid: 696ab7ddff6a7e0489262064e5587e5c,
+  m_CorrespondingSourceObject: {fileID: 2499272648269339556, guid: 696ab7ddff6a7e0489262064e5587e5c,
     type: 3}
   m_PrefabInstance: {fileID: 6408557720664413801}
   m_PrefabAsset: {fileID: 0}

@@ -30,11 +30,11 @@ public class BubblePhysics : MonoBehaviour
     {
         if (!paused) { 
             Vector2 new_direction = direction.normalized * current_speed + new Vector2(0f, 1f) * gravity_magnitude * Time.deltaTime * 1000 / 16;
-            //  current_speed -= water_resistance * Time.deltaTime * 1000 / 16;
-            //if(new_direction.y > 0)
+            current_speed -= water_resistance * Time.deltaTime * 1000 / 16;
+
             current_speed = new_direction.magnitude;
-                current_speed = Mathf.Clamp(current_speed, min_speed, max_speed);
-            float magnitude = Mathf.Clamp(new_direction.magnitude, min_speed, max_speed);
+            if (new_direction.y > 0)  current_speed = Mathf.Clamp(current_speed, min_speed, min_speed);
+            else current_speed = Mathf.Clamp(current_speed, 0, max_speed);
 
 
             direction = new_direction;

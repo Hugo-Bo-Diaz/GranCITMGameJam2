@@ -15,12 +15,12 @@ PrefabInstance:
     - target: {fileID: 5522206224138849255, guid: 9b855727b099cc4489ee05741ff85631,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -581
+      value: 1333
       objectReference: {fileID: 0}
     - target: {fileID: 5522206224138849255, guid: 9b855727b099cc4489ee05741ff85631,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 704
+      value: -321
       objectReference: {fileID: 0}
     - target: {fileID: 5522206224138849255, guid: 9b855727b099cc4489ee05741ff85631,
         type: 3}
@@ -67,6 +67,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5522206224138849254, guid: 9b855727b099cc4489ee05741ff85631,
+        type: 3}
+      propertyPath: m_FlipX
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5522206224138849253, guid: 9b855727b099cc4489ee05741ff85631,
         type: 3}
       propertyPath: horizontal_input
@@ -81,7 +86,7 @@ PrefabInstance:
         type: 3}
       propertyPath: melee_attack
       value: 
-      objectReference: {fileID: 7905288141498482749}
+      objectReference: {fileID: 5699879914802387700}
     - target: {fileID: 7891698567137255735, guid: 9b855727b099cc4489ee05741ff85631,
         type: 3}
       propertyPath: attack_str
@@ -89,9 +94,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9b855727b099cc4489ee05741ff85631, type: 3}
---- !u!61 &7905288141498482749 stripped
+--- !u!61 &5699879914802387700 stripped
 BoxCollider2D:
-  m_CorrespondingSourceObject: {fileID: 7891698567137255734, guid: 9b855727b099cc4489ee05741ff85631,
+  m_CorrespondingSourceObject: {fileID: 5704865781970566143, guid: 9b855727b099cc4489ee05741ff85631,
     type: 3}
   m_PrefabInstance: {fileID: 14016190528413963}
   m_PrefabAsset: {fileID: 0}
