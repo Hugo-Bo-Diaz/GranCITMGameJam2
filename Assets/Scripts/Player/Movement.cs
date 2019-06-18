@@ -63,7 +63,7 @@ public class Movement : MonoBehaviour
         wanted_direction = new Vector2(Input.GetAxis(horizontal_input), Input.GetAxis(vertical_input)); 
         wanted_direction.Normalize();
 
-        if(!turboing && Input.GetButton("Dash 1"))
+        if(!turboing && Input.GetButton(dash_input))
         {
             turboing = true;
             StartCoroutine(Turbo());
