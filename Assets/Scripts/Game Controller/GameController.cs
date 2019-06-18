@@ -61,7 +61,7 @@ public class GameController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(team_alga.touches >= 3)
+        if(team_alga.touches >= 4)
         {
             // Alga touched too many times
             TeamScored(true);
@@ -69,7 +69,7 @@ public class GameController : MonoBehaviour
             team_alga.touches = 0;
         }
 
-        if(team_coral.touches >= 3)
+        if(team_coral.touches >= 4)
         {
             // Coral touched too many times
             TeamScored(false);

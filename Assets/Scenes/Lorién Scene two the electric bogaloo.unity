@@ -193,6 +193,7 @@ GameObject:
   - component: {fileID: 54913976}
   - component: {fileID: 54913975}
   - component: {fileID: 54913974}
+  - component: {fileID: 54913977}
   m_Layer: 11
   m_Name: FloorCoral
   m_TagString: Untagged
@@ -309,6 +310,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1770.4551, y: 67.60309}
   m_EdgeRadius: 0
+--- !u!114 &54913977
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 54913972}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2031d126c6b14c4794f3d282d9bd1dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isTeamAlga: 0
+  gameController: {fileID: 929627108}
 --- !u!1 &318852565
 GameObject:
   m_ObjectHideFlags: 0
@@ -652,7 +667,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isTeamAlga: 1
-  gameController: {fileID: 0}
+  gameController: {fileID: 929627108}
 --- !u!212 &484266572
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1118,7 +1133,7 @@ GameObject:
   - component: {fileID: 1019274499}
   - component: {fileID: 1019274498}
   - component: {fileID: 1019274497}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Wall Coral Trigger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
