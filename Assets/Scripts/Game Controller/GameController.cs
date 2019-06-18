@@ -61,12 +61,16 @@ public class GameController : MonoBehaviour
         {
             // Alga touched too many times
             TeamScored(true);
+            team_alga.UpdateScore();
+            team_alga.touches = 0;
         }
 
         if(team_coral.touches >= 3)
         {
             // Coral touched too many times
             TeamScored(false);
+            team_coral.UpdateScore();
+            team_coral.touches = 0;
         }
     }
 
