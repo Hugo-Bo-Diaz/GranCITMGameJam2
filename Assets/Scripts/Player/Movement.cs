@@ -22,13 +22,19 @@ public class Movement : MonoBehaviour
     private Vector2 last_direction = new Vector2(0, 0);
     private float current_speed = 0;
 
+    private SpriteRenderer Renderer2D;
+
 
     void Start()
     {
         direction.x = 1;
         direction.Normalize();
 
+        Renderer2D = GetComponent<SpriteRenderer>();
+
         rotation_speed *= Mathf.Deg2Rad;
+
+
     }
 
     // Update is called once per frame
@@ -92,6 +98,8 @@ public class Movement : MonoBehaviour
 
         // Move 
         transform.SetPositionAndRotation(position, rotation);
+        // Flip
+        Renderer2D.flipY = direction.x < 0;
     }
 
     public Vector2 GetDirection() { return direction; }
