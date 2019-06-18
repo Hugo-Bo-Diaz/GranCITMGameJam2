@@ -68,14 +68,6 @@ public class Attack : MonoBehaviour
 
     }
 
-    IEnumerator TemporalTimeStop(BubblePhysics physics)
-    {
-        Time.timeScale = 0.1f;
-        yield return new WaitForSeconds(0.1f);
-        Time.timeScale = 1.0f;
-        physics.Pause(false);
-        
-    }
     private void OnTriggerEnter2D(Collider2D collision)
     {
         Debug.Log("bum");

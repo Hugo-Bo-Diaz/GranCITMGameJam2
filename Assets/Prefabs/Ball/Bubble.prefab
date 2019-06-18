@@ -98,6 +98,8 @@ MonoBehaviour:
   min_speed: 5
   water_resistance: 0.3
   gravity_magnitude: 0.2
+  time_ungravity: 1
+  time_ungravity_start: -10
 --- !u!58 &1541248784
 CircleCollider2D:
   m_ObjectHideFlags: 0
