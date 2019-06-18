@@ -1,7 +1,19 @@
 fileFormatVersion: 2
 guid: 961c0476d8618784aa606b7e944e05c0
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: SwimFishSpriteSheet_0
+    21300002: SwimFishSpriteSheet_1
+    21300004: SwimFishSpriteSheet_2
+    21300006: SwimFishSpriteSheet_3
+    21300008: SwimFishSpriteSheet_4
+    21300010: SwimFishSpriteSheet_5
+    21300012: SwimFishSpriteSheet_6
+    21300014: SwimFishSpriteSheet_7
+    21300016: SwimFishSpriteSheet_8
+    21300018: SwimFishSpriteSheet_9
+    21300020: SwimFishSpriteSheet_10
+    21300022: SwimFishSpriteSheet_11
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -40,7 +52,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -69,9 +81,260 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: SwimFishSpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 31
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.67}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 598250d19849a3c4fbd230f4cfc98116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwimFishSpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 0
+        width: 29
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.67}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5adac2a7b2c47db4fb01d93c119ba76f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwimFishSpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 0
+        width: 25
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.67}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ae2e29bda0d8434f807999363cf23d0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwimFishSpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 0
+        width: 23
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.67}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0878156b611946d41967805f8d4d84d3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwimFishSpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 0
+        width: 26
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.67}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbe3d0816132e86459069fcc8ab518b5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwimFishSpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 0
+        width: 29
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.67}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2676bfeff868b3a4898d7f215739b118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwimFishSpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 0
+        width: 31
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.67}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85edf5de668e318468bd4b314a480da2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwimFishSpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 0
+        width: 29
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.67}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29a50e8c82fbd674f868b99e588866f6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwimFishSpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 0
+        width: 25
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.67}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 751193366e3360841814b2055b41c189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwimFishSpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 0
+        width: 23
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.67}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f767674d04b7a86419d6463ff3b0b8c9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwimFishSpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 0
+        width: 26
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.67}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 615dc903856fbbd469f27668343e8ed7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwimFishSpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 0
+        width: 29
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.67}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c59b73e100763d42a5470cae2e2d39f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
