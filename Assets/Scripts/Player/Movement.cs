@@ -11,6 +11,7 @@ public class Movement : MonoBehaviour
     public float deceleration_multiplicator = 0;
     public float min_angle = 10;
     public float rotation_speed = 0;
+    
 
     [Header("Input")]
     public string horizontal_input = "Horizontal 1";
@@ -21,7 +22,7 @@ public class Movement : MonoBehaviour
     private Vector2 direction = new Vector2(1, 0);
     private Vector2 last_direction = new Vector2(0, 0);
     private float current_speed = 0;
-
+    Rigidbody2D rb;
     private SpriteRenderer Renderer2D;
 
 
@@ -30,10 +31,10 @@ public class Movement : MonoBehaviour
         direction.x = 1;
         direction.Normalize();
 
-        Renderer2D = GetComponent<SpriteRenderer>();
-
         rotation_speed *= Mathf.Deg2Rad;
+        rb = GetComponent<Rigidbody2D>();
 
+        Renderer2D = GetComponent<SpriteRenderer>();
 
     }
 
@@ -93,13 +94,34 @@ public class Movement : MonoBehaviour
         Quaternion rotation = Quaternion.Euler(new Vector3(0, 0, current_angle));
         Vector3 position = transform.position;
 
+
+
+        //RaycastHit2D[] rayData = new RaycastHit2D[0];
+        //capsule.Cast(new Vector2(movement.x, 0.0f), rayData);
+        ////Debug.Log(rayData.Length);
+        //if(rayData.Length != 0)
+        //{
+        //    movement.x = 0;
+        //}
+
+
+        //capsule.Cast(new Vector2(0.0f, movement.y), rayData);
+        //if (rayData.Length != 0)
+        //{
+        //    movement.y = 0;
+        //}
+
+        //rb.velocity = movement;
         position.x += movement.x;
         position.y += movement.y;
 
-        // Move 
-        transform.SetPositionAndRotation(position, rotation);
-        // Flip
+        //// Move 
+        rb.MovePosition(position);
+        rb.MoveRotation(current_angle);
+        //transform.SetPositionAndRotation(position, rotation);
+
         Renderer2D.flipY = direction.x < 0;
+
     }
 
     public Vector2 GetDirection() { return direction; }
