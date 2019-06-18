@@ -10,8 +10,13 @@ public class Movement : MonoBehaviour
     public float time_to_accel = 0;
     public float deceleration_multiplicator = 0;
     public float min_angle = 10;
-
     public float rotation_speed = 0;
+
+    [Header("Input")]
+    public string horizontal_input = "Horizontal 1";
+    public string vertical_input = "Vertical 1";
+
+
 
     private Vector2 direction = new Vector2(1, 0);
     private Vector2 last_direction = new Vector2(0, 0);
@@ -30,7 +35,7 @@ public class Movement : MonoBehaviour
     void Update()
     {
         // Get wanted direction: Used only to know direction rotation and neutral/not neutral
-        Vector2 wanted_direction = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical")); 
+        Vector2 wanted_direction = new Vector2(Input.GetAxis(horizontal_input), Input.GetAxis(vertical_input)); 
         wanted_direction.Normalize();
 
         // If the stick is neutral, go towards last direction and set wanted speed to 0
