@@ -86,12 +86,6 @@ PrefabInstance:
         type: 3}
       propertyPath: melee_attack
       value: 
-      objectReference: {fileID: 7891698567137255734}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 311ea044c4d0e814284377da89fe4632, type: 3}
---- !u!61 &7891698567137255734 stripped
-BoxCollider2D:
-  m_CorrespondingSourceObject: {fileID: 6408557719396390660, guid: 311ea044c4d0e814284377da89fe4632,
-    type: 3}
-  m_PrefabInstance: {fileID: 3849231064662373938}
-  m_PrefabAsset: {fileID: 0}
