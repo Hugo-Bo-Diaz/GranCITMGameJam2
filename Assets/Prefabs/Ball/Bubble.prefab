@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1583884437621768850}
   - component: {fileID: 1583884437621768851}
   - component: {fileID: 1541248784}
-  - component: {fileID: 8374991484054211099}
+  - component: {fileID: 5982309654895786863}
   m_Layer: 9
   m_Name: Bubble
   m_TagString: Ball
@@ -96,7 +96,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   max_speed: 20
   min_speed: 5
-  water_resistance: 0.3
+  water_resistance: 0.1
   gravity_magnitude: 0.2
   time_ungravity: 1
   time_ungravity_start: -10
@@ -110,13 +110,13 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.1
---- !u!50 &8374991484054211099
+  m_Radius: 0.09
+--- !u!50 &5982309654895786863
 Rigidbody2D:
   serializedVersion: 4
   m_ObjectHideFlags: 0
