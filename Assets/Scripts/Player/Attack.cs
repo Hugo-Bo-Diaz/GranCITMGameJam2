@@ -25,12 +25,17 @@ public class Attack : MonoBehaviour
     private float attack_start_time = 0;
 
     private Movement movement;
+    private GameController gc;
 
+    [Header("Team")]
+    public string team;
 
     
     void Start()
     {
         movement = GetComponent<Movement>();
+        gc = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameController>();
+
     }
 
     // Update is called once per frame
@@ -76,6 +81,7 @@ public class Attack : MonoBehaviour
             melee_attack.enabled = false;
             BubblePhysics physics = collision.gameObject.GetComponent<BubblePhysics>();
             physics.ApplyHit(movement.GetWantedDirection(), attack_force);
+            gc.AddTouchTo(team);
         }
     }
 

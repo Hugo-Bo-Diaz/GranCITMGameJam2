@@ -92,6 +92,11 @@ PrefabInstance:
       propertyPath: attack_str
       value: Melee Attack 4
       objectReference: {fileID: 0}
+    - target: {fileID: 7891698567137255735, guid: 9b855727b099cc4489ee05741ff85631,
+        type: 3}
+      propertyPath: team
+      value: coral
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9b855727b099cc4489ee05741ff85631, type: 3}
 --- !u!61 &5699879914802387700 stripped
