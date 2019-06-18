@@ -322,7 +322,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2031d126c6b14c4794f3d282d9bd1dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTeamAlga: 0
+  team: alga
   gameController: {fileID: 929627108}
 --- !u!1 &201295898
 GameObject:
@@ -385,7 +385,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0.6603774, g: 0, b: 0.2423255, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -393,7 +393,7 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 6f2684a4f114f894b99a24b5e87910fb, type: 3}
     m_FontSize: 60
     m_FontStyle: 0
     m_BestFit: 0
@@ -405,7 +405,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Score Coral
+  m_Text: 1 Score Coral
 --- !u!222 &318852567
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -430,8 +430,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 229.99997, y: -460}
-  m_SizeDelta: {x: 460, y: 160}
+  m_AnchoredPosition: {x: 342.2, y: -460}
+  m_SizeDelta: {x: 684.3, y: 160}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &362428283
 GameObject:
@@ -696,7 +696,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2031d126c6b14c4794f3d282d9bd1dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTeamAlga: 1
+  team: coral
   gameController: {fileID: 929627108}
 --- !u!212 &484266572
 SpriteRenderer:
@@ -945,7 +945,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0.8679245, g: 0.37203553, b: 0, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -953,7 +953,7 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 6f2684a4f114f894b99a24b5e87910fb, type: 3}
     m_FontSize: 60
     m_FontStyle: 0
     m_BestFit: 0
@@ -965,7 +965,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Score Alga
+  m_Text: Score Alga 1
 --- !u!222 &810284086
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -990,8 +990,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -227.5, y: -460}
-  m_SizeDelta: {x: 455, y: 160}
+  m_AnchoredPosition: {x: -312, y: -460}
+  m_SizeDelta: {x: 624.1, y: 160}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!61 &904561691 stripped
 BoxCollider2D:
@@ -1163,6 +1163,7 @@ GameObject:
   - component: {fileID: 1019274499}
   - component: {fileID: 1019274498}
   - component: {fileID: 1019274497}
+  - component: {fileID: 1019274500}
   m_Layer: 0
   m_Name: Wall Coral Trigger
   m_TagString: Untagged
@@ -1279,6 +1280,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1019274500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1019274495}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9cba7223975ab3346b3c32ee999eb322, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameController: {fileID: 929627108}
 --- !u!61 &1311462421 stripped
 BoxCollider2D:
   m_CorrespondingSourceObject: {fileID: 5699879914802387700, guid: f7eba7e535e310b438eb7124ca90afba,
@@ -1411,6 +1425,7 @@ GameObject:
   - component: {fileID: 1490947121}
   - component: {fileID: 1490947120}
   - component: {fileID: 1490947119}
+  - component: {fileID: 1490947122}
   m_Layer: 0
   m_Name: Wall Alga Trigger
   m_TagString: Untagged
@@ -1527,6 +1542,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1490947122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1490947117}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9cba7223975ab3346b3c32ee999eb322, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameController: {fileID: 929627108}
 --- !u!1 &1541248780 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1583884437621768860, guid: 96249ef749fb7464895ea76e661f4349,

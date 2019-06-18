@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class FloorScript : MonoBehaviour
 {
-    public bool isTeamAlga = false;
+    public string team = "";
     public GameController gameController;
 
 
@@ -12,7 +12,7 @@ public class FloorScript : MonoBehaviour
     {
         if (other.collider.tag == "Ball")
         {
-            gameController.TeamScored(!isTeamAlga, "floor");
+            gameController.TeamScored(team, "floor");
         }
     }
 }
