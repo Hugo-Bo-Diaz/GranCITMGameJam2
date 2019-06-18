@@ -1,0 +1,1851 @@
+fileFormatVersion: 2
+guid: 6213f7d75d35b5842bf5a521d45af014
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: AnimationBubbles_0
+    21300002: AnimationBubbles_1
+    21300004: AnimationBubbles_2
+    21300006: AnimationBubbles_3
+    21300008: AnimationBubbles_4
+    21300010: AnimationBubbles_5
+    21300012: AnimationBubbles_6
+    21300014: AnimationBubbles_7
+    21300016: AnimationBubbles_8
+    21300018: AnimationBubbles_9
+    21300020: AnimationBubbles_10
+    21300022: AnimationBubbles_11
+    21300024: AnimationBubbles_12
+    21300026: AnimationBubbles_13
+    21300028: AnimationBubbles_14
+    21300030: AnimationBubbles_15
+    21300032: AnimationBubbles_16
+    21300034: AnimationBubbles_17
+    21300036: AnimationBubbles_18
+    21300038: AnimationBubbles_19
+    21300040: AnimationBubbles_20
+    21300042: AnimationBubbles_21
+    21300044: AnimationBubbles_22
+    21300046: AnimationBubbles_23
+    21300048: AnimationBubbles_24
+    21300050: AnimationBubbles_25
+    21300052: AnimationBubbles_26
+    21300054: AnimationBubbles_27
+    21300056: AnimationBubbles_28
+    21300058: AnimationBubbles_29
+    21300060: AnimationBubbles_30
+    21300062: AnimationBubbles_31
+    21300064: AnimationBubbles_32
+    21300066: AnimationBubbles_33
+    21300068: AnimationBubbles_34
+    21300070: AnimationBubbles_35
+    21300072: AnimationBubbles_36
+    21300074: AnimationBubbles_37
+    21300076: AnimationBubbles_38
+    21300078: AnimationBubbles_39
+    21300080: AnimationBubbles_40
+    21300082: AnimationBubbles_41
+    21300084: AnimationBubbles_42
+    21300086: AnimationBubbles_43
+    21300088: AnimationBubbles_44
+    21300090: AnimationBubbles_45
+    21300092: AnimationBubbles_46
+    21300094: AnimationBubbles_47
+    21300096: AnimationBubbles_48
+    21300098: AnimationBubbles_49
+    21300100: AnimationBubbles_50
+    21300102: AnimationBubbles_51
+    21300104: AnimationBubbles_52
+    21300106: AnimationBubbles_53
+    21300108: AnimationBubbles_54
+    21300110: AnimationBubbles_55
+    21300112: AnimationBubbles_56
+    21300114: AnimationBubbles_57
+    21300116: AnimationBubbles_58
+    21300118: AnimationBubbles_59
+    21300120: AnimationBubbles_60
+    21300122: AnimationBubbles_61
+    21300124: AnimationBubbles_62
+    21300126: AnimationBubbles_63
+    21300128: AnimationBubbles_64
+    21300130: AnimationBubbles_65
+    21300132: AnimationBubbles_66
+    21300134: AnimationBubbles_67
+    21300136: AnimationBubbles_68
+    21300138: AnimationBubbles_69
+    21300140: AnimationBubbles_70
+    21300142: AnimationBubbles_71
+    21300144: AnimationBubbles_72
+    21300146: AnimationBubbles_73
+    21300148: AnimationBubbles_74
+    21300150: AnimationBubbles_75
+    21300152: AnimationBubbles_76
+    21300154: AnimationBubbles_77
+    21300156: AnimationBubbles_78
+    21300158: AnimationBubbles_79
+    21300160: AnimationBubbles_80
+    21300162: AnimationBubbles_81
+    21300164: AnimationBubbles_82
+    21300166: AnimationBubbles_83
+    21300168: AnimationBubbles_84
+    21300170: AnimationBubbles_85
+    21300172: AnimationBubbles_86
+    21300174: AnimationBubbles_87
+    21300176: AnimationBubbles_88
+    21300178: AnimationBubbles_89
+    21300180: AnimationBubbles_90
+    21300182: AnimationBubbles_91
+    21300184: AnimationBubbles_92
+    21300186: AnimationBubbles_93
+    21300188: AnimationBubbles_94
+    21300190: AnimationBubbles_95
+    21300192: AnimationBubbles_96
+    21300194: AnimationBubbles_97
+    21300196: AnimationBubbles_98
+    21300198: AnimationBubbles_99
+    21300200: AnimationBubbles_100
+    21300202: AnimationBubbles_101
+    21300204: AnimationBubbles_102
+    21300206: AnimationBubbles_103
+    21300208: AnimationBubbles_104
+    21300210: AnimationBubbles_105
+    21300212: AnimationBubbles_106
+    21300214: AnimationBubbles_107
+    21300216: AnimationBubbles_108
+    21300218: AnimationBubbles_109
+    21300220: AnimationBubbles_110
+    21300222: AnimationBubbles_111
+    21300224: AnimationBubbles_112
+    21300226: AnimationBubbles_113
+    21300228: AnimationBubbles_114
+    21300230: AnimationBubbles_115
+    21300232: AnimationBubbles_116
+    21300234: AnimationBubbles_117
+    21300236: AnimationBubbles_118
+    21300238: AnimationBubbles_119
+    21300240: AnimationBubbles_120
+    21300242: AnimationBubbles_121
+    21300244: AnimationBubbles_122
+    21300246: AnimationBubbles_123
+    21300248: AnimationBubbles_124
+    21300250: AnimationBubbles_125
+    21300252: AnimationBubbles_126
+    21300254: AnimationBubbles_127
+    21300256: AnimationBubbles_128
+    21300258: AnimationBubbles_129
+    21300260: AnimationBubbles_130
+    21300262: AnimationBubbles_131
+    21300264: AnimationBubbles_132
+    21300266: AnimationBubbles_133
+    21300268: AnimationBubbles_134
+    21300270: AnimationBubbles_135
+    21300272: AnimationBubbles_136
+    21300274: AnimationBubbles_137
+    21300276: AnimationBubbles_138
+    21300278: AnimationBubbles_139
+    21300280: AnimationBubbles_140
+    21300282: AnimationBubbles_141
+    21300284: AnimationBubbles_142
+    21300286: AnimationBubbles_143
+    21300288: AnimationBubbles_144
+    21300290: AnimationBubbles_145
+    21300292: AnimationBubbles_146
+    21300294: AnimationBubbles_147
+    21300296: AnimationBubbles_148
+    21300298: AnimationBubbles_149
+    21300300: AnimationBubbles_150
+    21300302: AnimationBubbles_151
+    21300304: AnimationBubbles_152
+    21300306: AnimationBubbles_153
+    21300308: AnimationBubbles_154
+    21300310: AnimationBubbles_155
+    21300312: AnimationBubbles_156
+    21300314: AnimationBubbles_157
+    21300316: AnimationBubbles_158
+    21300318: AnimationBubbles_159
+    21300320: AnimationBubbles_160
+    21300322: AnimationBubbles_161
+    21300324: AnimationBubbles_162
+    21300326: AnimationBubbles_163
+    21300328: AnimationBubbles_164
+    21300330: AnimationBubbles_165
+    21300332: AnimationBubbles_166
+    21300334: AnimationBubbles_167
+    21300336: AnimationBubbles_168
+    21300338: AnimationBubbles_169
+    21300340: AnimationBubbles_170
+    21300342: AnimationBubbles_171
+    21300344: AnimationBubbles_172
+    21300346: AnimationBubbles_173
+    21300348: AnimationBubbles_174
+    21300350: AnimationBubbles_175
+    21300352: AnimationBubbles_176
+    21300354: AnimationBubbles_177
+    21300356: AnimationBubbles_178
+    21300358: AnimationBubbles_179
+    21300360: AnimationBubbles_180
+    21300362: AnimationBubbles_181
+    21300364: AnimationBubbles_182
+    21300366: AnimationBubbles_183
+    21300368: AnimationBubbles_184
+    21300370: AnimationBubbles_185
+    21300372: AnimationBubbles_186
+    21300374: AnimationBubbles_187
+    21300376: AnimationBubbles_188
+    21300378: AnimationBubbles_189
+    21300380: AnimationBubbles_190
+    21300382: AnimationBubbles_191
+    21300384: AnimationBubbles_192
+    21300386: AnimationBubbles_193
+    21300388: AnimationBubbles_194
+    21300390: AnimationBubbles_195
+    21300392: AnimationBubbles_196
+    21300394: AnimationBubbles_197
+    21300396: AnimationBubbles_198
+    21300398: AnimationBubbles_199
+    21300400: AnimationBubbles_200
+    21300402: AnimationBubbles_201
+    21300404: AnimationBubbles_202
+    21300406: AnimationBubbles_203
+    21300408: AnimationBubbles_204
+    21300410: AnimationBubbles_205
+    21300412: AnimationBubbles_206
+    21300414: AnimationBubbles_207
+    21300416: AnimationBubbles_208
+    21300418: AnimationBubbles_209
+    21300420: AnimationBubbles_210
+    21300422: AnimationBubbles_211
+    21300424: AnimationBubbles_212
+    21300426: AnimationBubbles_213
+    21300428: AnimationBubbles_214
+    21300430: AnimationBubbles_215
+    21300432: AnimationBubbles_216
+    21300434: AnimationBubbles_217
+    21300436: AnimationBubbles_218
+    21300438: AnimationBubbles_219
+    21300440: AnimationBubbles_220
+    21300442: AnimationBubbles_221
+    21300444: AnimationBubbles_222
+    21300446: AnimationBubbles_223
+    21300448: AnimationBubbles_224
+    21300450: AnimationBubbles_225
+    21300452: AnimationBubbles_226
+    21300454: AnimationBubbles_227
+    21300456: AnimationBubbles_228
+    21300458: AnimationBubbles_229
+    21300460: AnimationBubbles_230
+    21300462: AnimationBubbles_231
+    21300464: AnimationBubbles_232
+    21300466: AnimationBubbles_233
+    21300468: AnimationBubbles_234
+    21300470: AnimationBubbles_235
+    21300472: AnimationBubbles_236
+    21300474: AnimationBubbles_237
+    21300476: AnimationBubbles_238
+    21300478: AnimationBubbles_239
+    21300480: AnimationBubbles_240
+    21300482: AnimationBubbles_241
+    21300484: AnimationBubbles_242
+    21300486: AnimationBubbles_243
+    21300488: AnimationBubbles_244
+    21300490: AnimationBubbles_245
+    21300492: AnimationBubbles_246
+    21300494: AnimationBubbles_247
+    21300496: AnimationBubbles_248
+    21300498: AnimationBubbles_249
+    21300500: AnimationBubbles_250
+    21300502: AnimationBubbles_251
+    21300504: AnimationBubbles_252
+    21300506: AnimationBubbles_253
+    21300508: AnimationBubbles_254
+    21300510: AnimationBubbles_255
+    21300512: AnimationBubbles_256
+    21300514: AnimationBubbles_257
+    21300516: AnimationBubbles_258
+    21300518: AnimationBubbles_259
+    21300520: AnimationBubbles_260
+    21300522: AnimationBubbles_261
+    21300524: AnimationBubbles_262
+    21300526: AnimationBubbles_263
+    21300528: AnimationBubbles_264
+    21300530: AnimationBubbles_265
+    21300532: AnimationBubbles_266
+    21300534: AnimationBubbles_267
+    21300536: AnimationBubbles_268
+    21300538: AnimationBubbles_269
+    21300540: AnimationBubbles_270
+    21300542: AnimationBubbles_271
+    21300544: AnimationBubbles_272
+    21300546: AnimationBubbles_273
+    21300548: AnimationBubbles_274
+    21300550: AnimationBubbles_275
+    21300552: AnimationBubbles_276
+    21300554: AnimationBubbles_277
+    21300556: AnimationBubbles_278
+    21300558: AnimationBubbles_279
+    21300560: AnimationBubbles_280
+    21300562: AnimationBubbles_281
+    21300564: AnimationBubbles_282
+    21300566: AnimationBubbles_283
+    21300568: AnimationBubbles_284
+    21300570: AnimationBubbles_285
+    21300572: AnimationBubbles_286
+    21300574: AnimationBubbles_287
+    21300576: AnimationBubbles_288
+    21300578: AnimationBubbles_289
+    21300580: AnimationBubbles_290
+    21300582: AnimationBubbles_291
+    21300584: AnimationBubbles_292
+    21300586: AnimationBubbles_293
+    21300588: AnimationBubbles_294
+    21300590: AnimationBubbles_295
+    21300592: AnimationBubbles_296
+    21300594: AnimationBubbles_297
+    21300596: AnimationBubbles_298
+    21300598: AnimationBubbles_299
+    21300600: AnimationBubbles_300
+    21300602: AnimationBubbles_301
+    21300604: AnimationBubbles_302
+    21300606: AnimationBubbles_303
+    21300608: AnimationBubbles_304
+    21300610: AnimationBubbles_305
+    21300612: AnimationBubbles_306
+    21300614: AnimationBubbles_307
+    21300616: AnimationBubbles_308
+    21300618: AnimationBubbles_309
+    21300620: AnimationBubbles_310
+    21300622: AnimationBubbles_311
+    21300624: AnimationBubbles_312
+    21300626: AnimationBubbles_313
+    21300628: AnimationBubbles_314
+    21300630: AnimationBubbles_315
+    21300632: AnimationBubbles_316
+    21300634: AnimationBubbles_317
+    21300636: AnimationBubbles_318
+    21300638: AnimationBubbles_319
+    21300640: AnimationBubbles_320
+    21300642: AnimationBubbles_321
+    21300644: AnimationBubbles_322
+    21300646: AnimationBubbles_323
+    21300648: AnimationBubbles_324
+    21300650: AnimationBubbles_325
+    21300652: AnimationBubbles_326
+    21300654: AnimationBubbles_327
+    21300656: AnimationBubbles_328
+    21300658: AnimationBubbles_329
+    21300660: AnimationBubbles_330
+    21300662: AnimationBubbles_331
+    21300664: AnimationBubbles_332
+    21300666: AnimationBubbles_333
+    21300668: AnimationBubbles_334
+    21300670: AnimationBubbles_335
+    21300672: AnimationBubbles_336
+    21300674: AnimationBubbles_337
+    21300676: AnimationBubbles_338
+    21300678: AnimationBubbles_339
+    21300680: AnimationBubbles_340
+    21300682: AnimationBubbles_341
+    21300684: AnimationBubbles_342
+    21300686: AnimationBubbles_343
+    21300688: AnimationBubbles_344
+    21300690: AnimationBubbles_345
+    21300692: AnimationBubbles_346
+    21300694: AnimationBubbles_347
+    21300696: AnimationBubbles_348
+    21300698: AnimationBubbles_349
+    21300700: AnimationBubbles_350
+    21300702: AnimationBubbles_351
+    21300704: AnimationBubbles_352
+    21300706: AnimationBubbles_353
+    21300708: AnimationBubbles_354
+    21300710: AnimationBubbles_355
+    21300712: AnimationBubbles_356
+    21300714: AnimationBubbles_357
+    21300716: AnimationBubbles_358
+    21300718: AnimationBubbles_359
+    21300720: AnimationBubbles_360
+    21300722: AnimationBubbles_361
+    21300724: AnimationBubbles_362
+    21300726: AnimationBubbles_363
+    21300728: AnimationBubbles_364
+    21300730: AnimationBubbles_365
+    21300732: AnimationBubbles_366
+    21300734: AnimationBubbles_367
+    21300736: AnimationBubbles_368
+    21300738: AnimationBubbles_369
+    21300740: AnimationBubbles_370
+    21300742: AnimationBubbles_371
+    21300744: AnimationBubbles_372
+    21300746: AnimationBubbles_373
+    21300748: AnimationBubbles_374
+    21300750: AnimationBubbles_375
+    21300752: AnimationBubbles_376
+    21300754: AnimationBubbles_377
+    21300756: AnimationBubbles_378
+    21300758: AnimationBubbles_379
+    21300760: AnimationBubbles_380
+    21300762: AnimationBubbles_381
+    21300764: AnimationBubbles_382
+    21300766: AnimationBubbles_383
+    21300768: AnimationBubbles_384
+    21300770: AnimationBubbles_385
+    21300772: AnimationBubbles_386
+    21300774: AnimationBubbles_387
+    21300776: AnimationBubbles_388
+    21300778: AnimationBubbles_389
+    21300780: AnimationBubbles_390
+    21300782: AnimationBubbles_391
+    21300784: AnimationBubbles_392
+    21300786: AnimationBubbles_393
+    21300788: AnimationBubbles_394
+    21300790: AnimationBubbles_395
+    21300792: AnimationBubbles_396
+    21300794: AnimationBubbles_397
+    21300796: AnimationBubbles_398
+    21300798: AnimationBubbles_399
+    21300800: AnimationBubbles_400
+    21300802: AnimationBubbles_401
+    21300804: AnimationBubbles_402
+    21300806: AnimationBubbles_403
+    21300808: AnimationBubbles_404
+    21300810: AnimationBubbles_405
+    21300812: AnimationBubbles_406
+    21300814: AnimationBubbles_407
+    21300816: AnimationBubbles_408
+    21300818: AnimationBubbles_409
+    21300820: AnimationBubbles_410
+    21300822: AnimationBubbles_411
+    21300824: AnimationBubbles_412
+    21300826: AnimationBubbles_413
+    21300828: AnimationBubbles_414
+    21300830: AnimationBubbles_415
+    21300832: AnimationBubbles_416
+    21300834: AnimationBubbles_417
+    21300836: AnimationBubbles_418
+    21300838: AnimationBubbles_419
+    21300840: AnimationBubbles_420
+    21300842: AnimationBubbles_421
+    21300844: AnimationBubbles_422
+    21300846: AnimationBubbles_423
+    21300848: AnimationBubbles_424
+    21300850: AnimationBubbles_425
+    21300852: AnimationBubbles_426
+    21300854: AnimationBubbles_427
+    21300856: AnimationBubbles_428
+    21300858: AnimationBubbles_429
+    21300860: AnimationBubbles_430
+    21300862: AnimationBubbles_431
+    21300864: AnimationBubbles_432
+    21300866: AnimationBubbles_433
+    21300868: AnimationBubbles_434
+    21300870: AnimationBubbles_435
+    21300872: AnimationBubbles_436
+    21300874: AnimationBubbles_437
+    21300876: AnimationBubbles_438
+    21300878: AnimationBubbles_439
+    21300880: AnimationBubbles_440
+    21300882: AnimationBubbles_441
+    21300884: AnimationBubbles_442
+    21300886: AnimationBubbles_443
+    21300888: AnimationBubbles_444
+    21300890: AnimationBubbles_445
+    21300892: AnimationBubbles_446
+    21300894: AnimationBubbles_447
+    21300896: AnimationBubbles_448
+    21300898: AnimationBubbles_449
+    21300900: AnimationBubbles_450
+    21300902: AnimationBubbles_451
+    21300904: AnimationBubbles_452
+    21300906: AnimationBubbles_453
+    21300908: AnimationBubbles_454
+    21300910: AnimationBubbles_455
+    21300912: AnimationBubbles_456
+    21300914: AnimationBubbles_457
+    21300916: AnimationBubbles_458
+    21300918: AnimationBubbles_459
+    21300920: AnimationBubbles_460
+    21300922: AnimationBubbles_461
+    21300924: AnimationBubbles_462
+    21300926: AnimationBubbles_463
+    21300928: AnimationBubbles_464
+    21300930: AnimationBubbles_465
+    21300932: AnimationBubbles_466
+    21300934: AnimationBubbles_467
+    21300936: AnimationBubbles_468
+    21300938: AnimationBubbles_469
+    21300940: AnimationBubbles_470
+    21300942: AnimationBubbles_471
+    21300944: AnimationBubbles_472
+    21300946: AnimationBubbles_473
+    21300948: AnimationBubbles_474
+    21300950: AnimationBubbles_475
+    21300952: AnimationBubbles_476
+    21300954: AnimationBubbles_477
+    21300956: AnimationBubbles_478
+    21300958: AnimationBubbles_479
+    21300960: AnimationBubbles_480
+    21300962: AnimationBubbles_481
+    21300964: AnimationBubbles_482
+    21300966: AnimationBubbles_483
+    21300968: AnimationBubbles_484
+    21300970: AnimationBubbles_485
+    21300972: AnimationBubbles_486
+    21300974: AnimationBubbles_487
+    21300976: AnimationBubbles_488
+    21300978: AnimationBubbles_489
+    21300980: AnimationBubbles_490
+    21300982: AnimationBubbles_491
+    21300984: AnimationBubbles_492
+    21300986: AnimationBubbles_493
+    21300988: AnimationBubbles_494
+    21300990: AnimationBubbles_495
+    21300992: AnimationBubbles_496
+    21300994: AnimationBubbles_497
+    21300996: AnimationBubbles_498
+    21300998: AnimationBubbles_499
+    21301000: AnimationBubbles_500
+    21301002: AnimationBubbles_501
+    21301004: AnimationBubbles_502
+    21301006: AnimationBubbles_503
+    21301008: AnimationBubbles_504
+    21301010: AnimationBubbles_505
+    21301012: AnimationBubbles_506
+    21301014: AnimationBubbles_507
+    21301016: AnimationBubbles_508
+    21301018: AnimationBubbles_509
+    21301020: AnimationBubbles_510
+    21301022: AnimationBubbles_511
+    21301024: AnimationBubbles_512
+    21301026: AnimationBubbles_513
+    21301028: AnimationBubbles_514
+    21301030: AnimationBubbles_515
+    21301032: AnimationBubbles_516
+    21301034: AnimationBubbles_517
+    21301036: AnimationBubbles_518
+    21301038: AnimationBubbles_519
+    21301040: AnimationBubbles_520
+    21301042: AnimationBubbles_521
+    21301044: AnimationBubbles_522
+    21301046: AnimationBubbles_523
+    21301048: AnimationBubbles_524
+    21301050: AnimationBubbles_525
+    21301052: AnimationBubbles_526
+    21301054: AnimationBubbles_527
+    21301056: AnimationBubbles_528
+    21301058: AnimationBubbles_529
+    21301060: AnimationBubbles_530
+    21301062: AnimationBubbles_531
+    21301064: AnimationBubbles_532
+    21301066: AnimationBubbles_533
+    21301068: AnimationBubbles_534
+    21301070: AnimationBubbles_535
+    21301072: AnimationBubbles_536
+    21301074: AnimationBubbles_537
+    21301076: AnimationBubbles_538
+    21301078: AnimationBubbles_539
+    21301080: AnimationBubbles_540
+    21301082: AnimationBubbles_541
+    21301084: AnimationBubbles_542
+    21301086: AnimationBubbles_543
+    21301088: AnimationBubbles_544
+    21301090: AnimationBubbles_545
+    21301092: AnimationBubbles_546
+    21301094: AnimationBubbles_547
+    21301096: AnimationBubbles_548
+    21301098: AnimationBubbles_549
+    21301100: AnimationBubbles_550
+    21301102: AnimationBubbles_551
+    21301104: AnimationBubbles_552
+    21301106: AnimationBubbles_553
+    21301108: AnimationBubbles_554
+    21301110: AnimationBubbles_555
+    21301112: AnimationBubbles_556
+    21301114: AnimationBubbles_557
+    21301116: AnimationBubbles_558
+    21301118: AnimationBubbles_559
+    21301120: AnimationBubbles_560
+    21301122: AnimationBubbles_561
+    21301124: AnimationBubbles_562
+    21301126: AnimationBubbles_563
+    21301128: AnimationBubbles_564
+    21301130: AnimationBubbles_565
+    21301132: AnimationBubbles_566
+    21301134: AnimationBubbles_567
+    21301136: AnimationBubbles_568
+    21301138: AnimationBubbles_569
+    21301140: AnimationBubbles_570
+    21301142: AnimationBubbles_571
+    21301144: AnimationBubbles_572
+    21301146: AnimationBubbles_573
+    21301148: AnimationBubbles_574
+    21301150: AnimationBubbles_575
+    21301152: AnimationBubbles_576
+    21301154: AnimationBubbles_577
+    21301156: AnimationBubbles_578
+    21301158: AnimationBubbles_579
+    21301160: AnimationBubbles_580
+    21301162: AnimationBubbles_581
+    21301164: AnimationBubbles_582
+    21301166: AnimationBubbles_583
+    21301168: AnimationBubbles_584
+    21301170: AnimationBubbles_585
+    21301172: AnimationBubbles_586
+    21301174: AnimationBubbles_587
+    21301176: AnimationBubbles_588
+    21301178: AnimationBubbles_589
+    21301180: AnimationBubbles_590
+    21301182: AnimationBubbles_591
+    21301184: AnimationBubbles_592
+    21301186: AnimationBubbles_593
+    21301188: AnimationBubbles_594
+    21301190: AnimationBubbles_595
+    21301192: AnimationBubbles_596
+    21301194: AnimationBubbles_597
+    21301196: AnimationBubbles_598
+    21301198: AnimationBubbles_599
+    21301200: AnimationBubbles_600
+    21301202: AnimationBubbles_601
+    21301204: AnimationBubbles_602
+    21301206: AnimationBubbles_603
+    21301208: AnimationBubbles_604
+    21301210: AnimationBubbles_605
+    21301212: AnimationBubbles_606
+    21301214: AnimationBubbles_607
+    21301216: AnimationBubbles_608
+    21301218: AnimationBubbles_609
+    21301220: AnimationBubbles_610
+    21301222: AnimationBubbles_611
+    21301224: AnimationBubbles_612
+    21301226: AnimationBubbles_613
+    21301228: AnimationBubbles_614
+    21301230: AnimationBubbles_615
+    21301232: AnimationBubbles_616
+    21301234: AnimationBubbles_617
+    21301236: AnimationBubbles_618
+    21301238: AnimationBubbles_619
+    21301240: AnimationBubbles_620
+    21301242: AnimationBubbles_621
+    21301244: AnimationBubbles_622
+    21301246: AnimationBubbles_623
+    21301248: AnimationBubbles_624
+    21301250: AnimationBubbles_625
+    21301252: AnimationBubbles_626
+    21301254: AnimationBubbles_627
+    21301256: AnimationBubbles_628
+    21301258: AnimationBubbles_629
+    21301260: AnimationBubbles_630
+    21301262: AnimationBubbles_631
+    21301264: AnimationBubbles_632
+    21301266: AnimationBubbles_633
+    21301268: AnimationBubbles_634
+    21301270: AnimationBubbles_635
+    21301272: AnimationBubbles_636
+    21301274: AnimationBubbles_637
+    21301276: AnimationBubbles_638
+    21301278: AnimationBubbles_639
+    21301280: AnimationBubbles_640
+    21301282: AnimationBubbles_641
+    21301284: AnimationBubbles_642
+    21301286: AnimationBubbles_643
+    21301288: AnimationBubbles_644
+    21301290: AnimationBubbles_645
+    21301292: AnimationBubbles_646
+    21301294: AnimationBubbles_647
+    21301296: AnimationBubbles_648
+    21301298: AnimationBubbles_649
+    21301300: AnimationBubbles_650
+    21301302: AnimationBubbles_651
+    21301304: AnimationBubbles_652
+    21301306: AnimationBubbles_653
+    21301308: AnimationBubbles_654
+    21301310: AnimationBubbles_655
+    21301312: AnimationBubbles_656
+    21301314: AnimationBubbles_657
+    21301316: AnimationBubbles_658
+    21301318: AnimationBubbles_659
+    21301320: AnimationBubbles_660
+    21301322: AnimationBubbles_661
+    21301324: AnimationBubbles_662
+    21301326: AnimationBubbles_663
+    21301328: AnimationBubbles_664
+    21301330: AnimationBubbles_665
+    21301332: AnimationBubbles_666
+    21301334: AnimationBubbles_667
+    21301336: AnimationBubbles_668
+    21301338: AnimationBubbles_669
+    21301340: AnimationBubbles_670
+    21301342: AnimationBubbles_671
+    21301344: AnimationBubbles_672
+    21301346: AnimationBubbles_673
+    21301348: AnimationBubbles_674
+    21301350: AnimationBubbles_675
+    21301352: AnimationBubbles_676
+    21301354: AnimationBubbles_677
+    21301356: AnimationBubbles_678
+    21301358: AnimationBubbles_679
+    21301360: AnimationBubbles_680
+    21301362: AnimationBubbles_681
+    21301364: AnimationBubbles_682
+    21301366: AnimationBubbles_683
+    21301368: AnimationBubbles_684
+    21301370: AnimationBubbles_685
+    21301372: AnimationBubbles_686
+    21301374: AnimationBubbles_687
+    21301376: AnimationBubbles_688
+    21301378: AnimationBubbles_689
+    21301380: AnimationBubbles_690
+    21301382: AnimationBubbles_691
+    21301384: AnimationBubbles_692
+    21301386: AnimationBubbles_693
+    21301388: AnimationBubbles_694
+    21301390: AnimationBubbles_695
+    21301392: AnimationBubbles_696
+    21301394: AnimationBubbles_697
+    21301396: AnimationBubbles_698
+    21301398: AnimationBubbles_699
+    21301400: AnimationBubbles_700
+    21301402: AnimationBubbles_701
+    21301404: AnimationBubbles_702
+    21301406: AnimationBubbles_703
+    21301408: AnimationBubbles_704
+    21301410: AnimationBubbles_705
+    21301412: AnimationBubbles_706
+    21301414: AnimationBubbles_707
+    21301416: AnimationBubbles_708
+    21301418: AnimationBubbles_709
+    21301420: AnimationBubbles_710
+    21301422: AnimationBubbles_711
+    21301424: AnimationBubbles_712
+    21301426: AnimationBubbles_713
+    21301428: AnimationBubbles_714
+    21301430: AnimationBubbles_715
+    21301432: AnimationBubbles_716
+    21301434: AnimationBubbles_717
+    21301436: AnimationBubbles_718
+    21301438: AnimationBubbles_719
+    21301440: AnimationBubbles_720
+    21301442: AnimationBubbles_721
+    21301444: AnimationBubbles_722
+    21301446: AnimationBubbles_723
+    21301448: AnimationBubbles_724
+    21301450: AnimationBubbles_725
+    21301452: AnimationBubbles_726
+    21301454: AnimationBubbles_727
+    21301456: AnimationBubbles_728
+    21301458: AnimationBubbles_729
+    21301460: AnimationBubbles_730
+    21301462: AnimationBubbles_731
+    21301464: AnimationBubbles_732
+    21301466: AnimationBubbles_733
+    21301468: AnimationBubbles_734
+    21301470: AnimationBubbles_735
+    21301472: AnimationBubbles_736
+    21301474: AnimationBubbles_737
+    21301476: AnimationBubbles_738
+    21301478: AnimationBubbles_739
+    21301480: AnimationBubbles_740
+    21301482: AnimationBubbles_741
+    21301484: AnimationBubbles_742
+    21301486: AnimationBubbles_743
+    21301488: AnimationBubbles_744
+    21301490: AnimationBubbles_745
+    21301492: AnimationBubbles_746
+    21301494: AnimationBubbles_747
+    21301496: AnimationBubbles_748
+    21301498: AnimationBubbles_749
+    21301500: AnimationBubbles_750
+    21301502: AnimationBubbles_751
+  externalObjects: {}
+  serializedVersion: 9
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: AnimationBubbles_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2000
+        width: 374
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b10605113ffa8564ead70b901fb015f0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationBubbles_1
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 2000
+        width: 374
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9a8c86b0c33e7b4c87ccbcd738895e4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationBubbles_2
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 2000
+        width: 374
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b2a842bb8a799c449f902881d909697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationBubbles_3
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 2000
+        width: 374
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73437c0def631d44ea1694338b3629a9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationBubbles_4
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 2000
+        width: 374
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 051177fbd7a728640a6326c31d0fb3dc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationBubbles_5
+      rect:
+        serializedVersion: 2
+        x: 1870
+        y: 2000
+        width: 374
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6880eae5add40a3469b8ede2b72f468d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationBubbles_6
+      rect:
+        serializedVersion: 2
+        x: 2244
+        y: 2000
+        width: 374
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f893e0abc2110d1449cc872bef8ca6f3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationBubbles_7
+      rect:
+        serializedVersion: 2
+        x: 2618
+        y: 2000
+        width: 374
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acd0e0c5367471248a9821ed4ada6aa5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationBubbles_8
+      rect:
+        serializedVersion: 2
+        x: 2992
+        y: 2000
+        width: 374
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 807485e3b30b0f640b8e408ffb68ba5e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationBubbles_9
+      rect:
+        serializedVersion: 2
+        x: 3366
+        y: 2000
+        width: 374
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff1d7b377c0b8d644b96c65e7008b73c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationBubbles_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1500
+        width: 374
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52428706df89e9342a8d26347308461a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationBubbles_11
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 1500
+        width: 374
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e04837748446b7e4bae4dce2b3179214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationBubbles_12
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 1500
+        width: 374
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32882536d4b3576478d475177d35b064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationBubbles_13
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 1500
+        width: 374
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 449d426155be2b940bfbd5e2bc8a8160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationBubbles_14
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 1500
+        width: 374
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98790f46ab6bbfd4b9c8a2b95f02f13b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationBubbles_15
+      rect:
+        serializedVersion: 2
+        x: 1870
+        y: 1500
+        width: 374
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fbd1005fd465c44ba848e3d456ce53f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationBubbles_16
+      rect:
+        serializedVersion: 2
+        x: 2244
+        y: 1500
+        width: 374
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 636068b56fbadf54ea1c965f14ab91f5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationBubbles_17
+      rect:
+        serializedVersion: 2
+        x: 2618
+        y: 1500
+        width: 374
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 240dbb25cea82c24da8fc655ba6019ff
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationBubbles_18
+      rect:
+        serializedVersion: 2
+        x: 2992
+        y: 1500
+        width: 374
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 782c4ff9cf18d504eabf72809b3eedcb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationBubbles_19
+      rect:
+        serializedVersion: 2
+        x: 3366
+        y: 1500
+        width: 374
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e68c82b7a041b9c4a81fb8c7297914d8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationBubbles_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1000
+        width: 374
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02830e22bced1c149bfd552f48980a4d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationBubbles_21
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 1000
+        width: 374
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 129e39c8df36b1b4394fda06000e3634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationBubbles_22
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 1000
+        width: 374
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53fdd557224bfae4980c270a8dd328ef
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationBubbles_23
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 1000
+        width: 374
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41710f47d3a78a74081edb3cd9f94bc9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationBubbles_24
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 1000
+        width: 374
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ce9e62b74e4acf499b844e93ea79a02
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationBubbles_25
+      rect:
+        serializedVersion: 2
+        x: 1870
+        y: 1000
+        width: 374
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a1393acf5a914749bedf7f351271805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationBubbles_26
+      rect:
+        serializedVersion: 2
+        x: 2244
+        y: 1000
+        width: 374
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1c049487d5b18f42893b7f699b108d6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationBubbles_27
+      rect:
+        serializedVersion: 2
+        x: 2618
+        y: 1000
+        width: 374
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c51c891a0d9be940ab82a707796bf76
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationBubbles_28
+      rect:
+        serializedVersion: 2
+        x: 2992
+        y: 1000
+        width: 374
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1176b79ed6897c418510db2a9e724d5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationBubbles_29
+      rect:
+        serializedVersion: 2
+        x: 3366
+        y: 1000
+        width: 374
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e6a456affe7e99488c8e85670120736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationBubbles_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 500
+        width: 374
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a12ae77fca413e4181cacceb8be2e08
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationBubbles_31
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 500
+        width: 374
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 770db700821f7f44fa016a6192e37090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationBubbles_32
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 500
+        width: 374
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a07b3555f4721a438ffa4bade5a0abd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationBubbles_33
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 500
+        width: 374
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7595d78d49128824ba5808cf359929d1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationBubbles_34
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 500
+        width: 374
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fda9fba08ed08644af4fe130128cf11
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationBubbles_35
+      rect:
+        serializedVersion: 2
+        x: 1870
+        y: 500
+        width: 374
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 618126b49513c4f43b6ad643a73e66fb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationBubbles_36
+      rect:
+        serializedVersion: 2
+        x: 2244
+        y: 500
+        width: 374
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70f0a72cf19bb0449a272b9a84c6523b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationBubbles_37
+      rect:
+        serializedVersion: 2
+        x: 2618
+        y: 500
+        width: 374
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3342a73ad389524b961543193b0a39a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationBubbles_38
+      rect:
+        serializedVersion: 2
+        x: 2992
+        y: 500
+        width: 374
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9888c67a4c92f4b478dee866749202c9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationBubbles_39
+      rect:
+        serializedVersion: 2
+        x: 3366
+        y: 500
+        width: 374
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85cbbdb8a67b2e140a9fd3aa8a3747b7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationBubbles_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 374
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ed5bdb16f93e8a4cae39758e89f569f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationBubbles_41
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 0
+        width: 374
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e8d0e03bd9e7b342888c6c451323d85
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationBubbles_42
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 0
+        width: 374
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50e0d9b222224ac449f8ff0478f31fda
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationBubbles_43
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 0
+        width: 374
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08616ebfaa885be458b64658be5c1282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationBubbles_44
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 0
+        width: 374
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29c29ae84cecc7745a1c2c984381785c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationBubbles_45
+      rect:
+        serializedVersion: 2
+        x: 1870
+        y: 0
+        width: 374
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f16b8a773e6bb142b433b99ae15bea7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationBubbles_46
+      rect:
+        serializedVersion: 2
+        x: 2244
+        y: 0
+        width: 374
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abed25e9d65cae8429b01055016ecf20
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationBubbles_47
+      rect:
+        serializedVersion: 2
+        x: 2618
+        y: 0
+        width: 374
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3af373b11759ad648a872c0d90965c84
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationBubbles_48
+      rect:
+        serializedVersion: 2
+        x: 2992
+        y: 0
+        width: 374
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89ed5f15dfb123d4ab67bd9c1ebcd265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationBubbles_49
+      rect:
+        serializedVersion: 2
+        x: 3366
+        y: 0
+        width: 374
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3d149efa0094454fb2f32bacb87db87
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 9f4d13bedaad1b54ebfc870c03c0bece
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
