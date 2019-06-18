@@ -23,32 +23,35 @@ public struct Team
     public GameObject player1;
     public GameObject player2;
 
-    void UpdateScore()
+    public void UpdateScore()
     {
         if (isTeam1)
-            gui_score.text = "Team 1" +score.ToString();
+            gui_score.text = "Team Alga  " +score.ToString();
         else
-            gui_score.text = score.ToString() + "Team 2" ;
+            gui_score.text = score.ToString() + "  Team Coral" ;
     }
 }
 
 public class GameController : MonoBehaviour
 {
-   Team team1;
-   Team team2;
+   Team team_alga;
+   Team team_coral;
 
    public GameObject player1;
    public GameObject player2;
    public GameObject player3;
    public GameObject player4;
 
-    public Text score1;
-    public Text score2;
+    public Text score_alga;
+    public Text score_coral;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        team_alga =  new Team(player1, player2, true, score_alga);
+        team_alga.UpdateScore();
+        team_coral = new Team(player1, player2, false, score_coral);
+        team_coral.UpdateScore();
     }
 
     // Update is called once per frame
@@ -57,8 +60,15 @@ public class GameController : MonoBehaviour
         
     }
 
-    void TeamScored(bool Team1Scored)
+    public void TeamScored(bool Team1Scored)
     {
-        gameObject.BroadcastMessage("teamScored", Team1Scored);
+        if (Team1Scored)
+        {
+            team_alga.score += 1;
+        }
+        if (!Team1Scored)
+        {
+            team_coral.score += 1;
+        }
     }
 }
