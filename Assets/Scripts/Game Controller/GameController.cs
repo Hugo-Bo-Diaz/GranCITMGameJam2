@@ -76,8 +76,16 @@ public class GameController : MonoBehaviour
 
     public void AddTouchTo(string team)
     {
-        if (team == "alga") team_alga.touches += 1;
-        else team_coral.touches += 1;
+        if (team == "alga")
+        {
+            team_alga.touches += 1;
+            team_coral.touches = 0;
+        }
+        else
+        {
+            team_coral.touches += 1;
+            team_alga.touches = 0;
+        }
     }
 
     public void TeamScored(bool Team1Scored)
@@ -90,5 +98,7 @@ public class GameController : MonoBehaviour
         {
             team_coral.score += 1;
         }
+
+        // Reset ball
     }
 }
