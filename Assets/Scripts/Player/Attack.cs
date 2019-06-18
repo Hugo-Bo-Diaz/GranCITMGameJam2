@@ -15,6 +15,9 @@ public class Attack : MonoBehaviour
 
     public float attack_force = 20;
 
+    [Header("Input")]
+    public string attack_str = "Melee Attack 1";
+
     private bool attacking = false;
     private bool attack_first_frame = true;
     private bool collider_active = false;
@@ -33,7 +36,8 @@ public class Attack : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float attack_input = Input.GetAxis("Melee Attack");
+
+        float attack_input = Input.GetAxis(attack_str);
 
         if (!attacking) attacking = attack_input == 1;
 
