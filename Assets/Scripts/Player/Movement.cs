@@ -29,7 +29,7 @@ public class Movement : MonoBehaviour
         if (wanted_direction.magnitude != 0) wanted_speed = max_speed;
 
         // Accelerate speed 
-        float acceleration = (wanted_speed - current_speed)
+        float acceleration = (wanted_speed - current_speed);
 
         
     }
