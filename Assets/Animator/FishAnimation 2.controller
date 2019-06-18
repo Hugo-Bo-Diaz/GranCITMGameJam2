@@ -6,7 +6,7 @@ AnimatorController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: FishAnimation
+  m_Name: FishAnimation 2
   serializedVersion: 5
   m_AnimatorParameters:
   - m_Name: Attacking
@@ -14,7 +14,7 @@ AnimatorController:
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Base Layer
@@ -96,7 +96,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 73b5f70041806d74e905593f506e6503, type: 2}
+  m_Motion: {fileID: 7400000, guid: 2a04bd057a5166841830d2832b8a409b, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -123,7 +123,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: dbddfb2024b231d43bcd417a97d4dc73, type: 2}
+  m_Motion: {fileID: 7400000, guid: a7332f1ce2ae7d8439b0ffbe6444b167, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 

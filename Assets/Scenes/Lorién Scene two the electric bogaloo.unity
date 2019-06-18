@@ -634,20 +634,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1308590444, guid: 696ab7ddff6a7e0489262064e5587e5c, type: 3}
-      propertyPath: melee_attack
-      value: 
-      objectReference: {fileID: 1808316289}
-    - target: {fileID: 1396595417577319937, guid: 696ab7ddff6a7e0489262064e5587e5c,
-        type: 3}
-      propertyPath: m_Mass
-      value: 0.0001
-      objectReference: {fileID: 0}
-    - target: {fileID: 1396595417577319937, guid: 696ab7ddff6a7e0489262064e5587e5c,
-        type: 3}
-      propertyPath: m_Simulated
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 696ab7ddff6a7e0489262064e5587e5c, type: 3}
 --- !u!1 &484266569
@@ -911,6 +897,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_RootOrder
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6386377212820913486, guid: f7eba7e535e310b438eb7124ca90afba,
+        type: 3}
+      propertyPath: m_GravityScale
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 1679512349375549040, guid: f7eba7e535e310b438eb7124ca90afba, type: 3}
@@ -1691,12 +1682,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 56.787174, y: 4000.3853}
   m_EdgeRadius: 0
---- !u!61 &1808316289 stripped
-BoxCollider2D:
-  m_CorrespondingSourceObject: {fileID: 2499272648269339556, guid: 696ab7ddff6a7e0489262064e5587e5c,
-    type: 3}
-  m_PrefabInstance: {fileID: 435942113}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1862051483
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1774,6 +1759,11 @@ PrefabInstance:
       propertyPath: m_FlipX
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7924651828153903735, guid: 311ea044c4d0e814284377da89fe4632,
+        type: 3}
+      propertyPath: m_GravityScale
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5444413703936571496, guid: 311ea044c4d0e814284377da89fe4632,
         type: 3}
       propertyPath: m_Mass
@@ -1788,6 +1778,11 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 6800229833708644343, guid: 311ea044c4d0e814284377da89fe4632,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 5b3c671a5e6c71d428b8be41d45b4d44, type: 2}
     m_RemovedComponents:
     - {fileID: 2455639861994772809, guid: 311ea044c4d0e814284377da89fe4632, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 311ea044c4d0e814284377da89fe4632, type: 3}
@@ -2095,6 +2090,11 @@ PrefabInstance:
       propertyPath: melee_attack
       value: 
       objectReference: {fileID: 2062232766}
+    - target: {fileID: 6381938890900118597, guid: 9b855727b099cc4489ee05741ff85631,
+        type: 3}
+      propertyPath: m_GravityScale
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3849231064662764720, guid: 9b855727b099cc4489ee05741ff85631,
         type: 3}
       propertyPath: m_RootOrder
