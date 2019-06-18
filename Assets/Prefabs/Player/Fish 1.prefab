@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 1308590444}
   - component: {fileID: 8092999348980203458}
   - component: {fileID: 3825176296146172958}
+  - component: {fileID: 8314877991842902821}
   m_Layer: 8
   m_Name: Fish 1
   m_TagString: Player
@@ -158,6 +159,25 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!95 &8314877991842902821
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2388635432354851775}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1afd132b57c0b3146ab6561cefbd6281, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &8397522412263865012
 GameObject:
   m_ObjectHideFlags: 0
