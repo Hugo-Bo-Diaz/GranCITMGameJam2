@@ -37,6 +37,7 @@ public class GameController : MonoBehaviour
    Team team_alga;
    Team team_coral;
 
+   public int total_score;
    public Text score_announcer;
    public Outline score_outlinner;
    public Animator score_animator;
@@ -178,6 +179,36 @@ public class GameController : MonoBehaviour
         score_announcer.enabled = false;
         score_animator.SetTrigger("end");
     }
+    IEnumerator EndGame(string team)
+    {
+        score_announcer.enabled = true;
+        score_announcer.color = original_color;
+        score_outlinner.effectColor = original_outline_color;
+        score_animator.SetTrigger("start");
+
+        if (team == "alga")
+        {
+            score_announcer.text = "Team Alga WINS !!!";
+        }
+        else
+            score_announcer.text = "Team Coral WINS !!!";
+
+        yield return new WaitForSeconds(2.0f);
+        score_animator.SetTrigger("next");
+
+        if (team == "alga")
+        {
+            score_announcer.color = alga_color;
+            score_outlinner.effectColor = alga_outline_color;
+        }
+        else
+        {
+            score_announcer.color = coral_color;
+            score_outlinner.effectColor = coral_outline_color;
+        }
+        Application.LoadLevel("Credits");
+        yield return new WaitForSeconds(3.0f);
+    }
     public void TeamScored(string team, string type)
     {
         if (team == "alga")
@@ -197,7 +228,15 @@ public class GameController : MonoBehaviour
 
 
         // Reset ball
-        StartCoroutine(ResetGame(team, type));
+        if(team_alga.score < total_score && team_alga.score < total_score)
+            StartCoroutine(ResetGame(team, type));
+        else if(team_alga.score >= total_score){
+            StartCoroutine(EndGame("alga"));
+        }
+        else if(team_coral.score >= total_score)
+        {
+            StartCoroutine(EndGame("coral"));
+        }
     }
 
     public string LastTouchedPoint()

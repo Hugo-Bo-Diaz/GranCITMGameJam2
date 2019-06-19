@@ -1402,6 +1402,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7131f3b5d9cbff469f45933b879ec26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  total_score: 1
   score_announcer: {fileID: 1730451042}
   score_outlinner: {fileID: 33945010}
   score_animator: {fileID: 1730451041}
