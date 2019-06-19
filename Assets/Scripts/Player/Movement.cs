@@ -30,6 +30,7 @@ public class Movement : MonoBehaviour
 
     Rigidbody2D rb;
     private SpriteRenderer Renderer2D;
+    private Attack attack_script;
 
 
 
@@ -40,9 +41,10 @@ public class Movement : MonoBehaviour
         direction.Normalize();
 
         rotation_speed *= Mathf.Deg2Rad;
-        rb = GetComponent<Rigidbody2D>();
 
+        rb = GetComponent<Rigidbody2D>();
         Renderer2D = GetComponent<SpriteRenderer>();
+        attack_script = GetComponent<Attack>();
 
     }
 
@@ -76,6 +78,8 @@ public class Movement : MonoBehaviour
             wanted_direction = last_direction;
             wanted_speed = 0;
         }
+
+        if (attack_script.IsAttacking()) wanted_speed = 0;
         // Find acceleration
         // Normal acceleration
         float acceleration = (wanted_speed - current_speed) / time_to_accel;

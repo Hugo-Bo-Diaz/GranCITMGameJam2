@@ -90,7 +90,7 @@ PrefabInstance:
     - target: {fileID: 5522206224138849253, guid: 9b855727b099cc4489ee05741ff85631,
         type: 3}
       propertyPath: dash_input
-      value: Dash 2
+      value: Dash 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9b855727b099cc4489ee05741ff85631, type: 3}

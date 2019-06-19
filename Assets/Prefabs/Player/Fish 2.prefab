@@ -67,14 +67,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1308590444, guid: 696ab7ddff6a7e0489262064e5587e5c, type: 3}
-      propertyPath: melee_attack
-      value: 
-      objectReference: {fileID: 8809311839050239437}
-    - target: {fileID: 1308590444, guid: 696ab7ddff6a7e0489262064e5587e5c, type: 3}
-      propertyPath: attack_str
-      value: Melee Attack 2
-      objectReference: {fileID: 0}
     - target: {fileID: 2388635432354851774, guid: 696ab7ddff6a7e0489262064e5587e5c,
         type: 3}
       propertyPath: horizontal_input
@@ -89,6 +81,14 @@ PrefabInstance:
         type: 3}
       propertyPath: dash_input
       value: Dash 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1308590444, guid: 696ab7ddff6a7e0489262064e5587e5c, type: 3}
+      propertyPath: melee_attack
+      value: 
+      objectReference: {fileID: 8809311839050239437}
+    - target: {fileID: 1308590444, guid: 696ab7ddff6a7e0489262064e5587e5c, type: 3}
+      propertyPath: attack_str
+      value: Melee Attack 2
       objectReference: {fileID: 0}
     - target: {fileID: 482026223296164254, guid: 696ab7ddff6a7e0489262064e5587e5c,
         type: 3}
