@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class menuplay : MonoBehaviour
 {
@@ -11,7 +12,7 @@ public class menuplay : MonoBehaviour
 
     public void changemenuscene(string menuplay)
     {
-            Application.LoadLevel (menuplay);
+            SceneManager.LoadScene(menuplay);
     }
 
 	public void opencontrolsmenu()
@@ -25,6 +26,16 @@ public class menuplay : MonoBehaviour
 		controls.SetActive(false);
 		controlsareopen=false;
 	}
+
+    public void LoadMainMenu()
+    {
+        SceneManager.LoadScene("Main Menu");
+    }
+
+    public void LoadCredits()
+    {
+        SceneManager.LoadScene("Credits");
+    }
 
 	public void CloseGame()
 	{
