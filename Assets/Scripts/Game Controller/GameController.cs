@@ -57,6 +57,9 @@ public class GameController : MonoBehaviour
     public GameObject coral_ball_spawn;
     public GameObject alga_ball_spawn;
 
+    public AudioSource audio_source;
+    public AudioClip win_sound;
+
     Color original_color;
     Color original_outline_color;
 
@@ -65,6 +68,8 @@ public class GameController : MonoBehaviour
 
     Color coral_color;
     Color coral_outline_color;
+
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -81,6 +86,8 @@ public class GameController : MonoBehaviour
         team_alga.UpdateScore();
         team_coral = new Team(player1, player2, false, score_coral);
         team_coral.UpdateScore();
+
+        audio_source = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -140,10 +147,12 @@ public class GameController : MonoBehaviour
             score_announcer.text = "Don't hit the ball more than three times !!!";
         }
 
+
+
         yield return new WaitForSeconds(2.0f);
         score_animator.SetTrigger("next");
-
-
+        audio_source.clip = win_sound;
+        audio_source.Play();
 
         if (team == "alga")
         {
