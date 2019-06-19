@@ -131,10 +131,10 @@ public class GameController : MonoBehaviour
         if (team == "alga") ball.transform.SetPositionAndRotation(alga_ball_spawn.transform.position, Quaternion.identity);
         else
         {
-            ball.GetComponent<SpriteRenderer>().enabled = true;
             ball.transform.SetPositionAndRotation(coral_ball_spawn.transform.position, Quaternion.identity);
 
         }
+        ball.GetComponent<SpriteRenderer>().enabled = true;
         score_announcer.enabled = false;
         score_animator.SetTrigger("end");
     }
