@@ -89,4 +89,6 @@ public class Attack : MonoBehaviour
         }
     }
 
+    public bool IsAttacking() { return attacking; }
+
 }
