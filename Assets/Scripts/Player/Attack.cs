@@ -9,13 +9,15 @@ public class Attack : MonoBehaviour
     [Header("Colliders")]
     public Collider2D melee_attack;
 
+    [Header("Particles")]
+    public GameObject particle_spawner;
 
 
     [Header("Attack vars (s)")]
     public float startup;
     public float attack_duration;
-
     public float attack_force = 20;
+    public float hitstop_amount = 0.2f;
 
     [Header("Input")]
     public string attack_str = "Melee Attack 1";
@@ -27,12 +29,11 @@ public class Attack : MonoBehaviour
     private float attack_start_time = 0;
 
     private Movement movement;
+    private Animator animator;
     private GameController gc;
 
     [Header("Team")]
     public string team;
-
-    Animator animator;
 
     void Start()
     {
@@ -77,14 +78,37 @@ public class Attack : MonoBehaviour
 
     }
 
+    IEnumerator HitstopApplyHit(BubblePhysics physics)
+    {
+        yield return new WaitForSeconds(hitstop_amount);
+        physics.enabled = true;
+        movement.enabled = true;
+        animator.enabled = true;
+        physics.ApplyHit(movement.GetWantedDirection(), attack_force);
+    }
     private void OnTriggerEnter2D(Collider2D collision)
     {
         Debug.Log("bum");
         if (collision.gameObject.tag == "Ball")
         {
+
+            Vector3 coll_centre = collision.bounds.center;
+            Vector3 pos = melee_attack.bounds.center;
+            Vector3 diff = coll_centre - pos;
+
+            Vector3 particle_spawn = pos += diff;
+
+            // Looks bad?
+            Instantiate(particle_spawner, particle_spawn, transform.rotation);
             melee_attack.enabled = false;
+
+
             BubblePhysics physics = collision.gameObject.GetComponent<BubblePhysics>();
-            physics.ApplyHit(movement.GetWantedDirection(), attack_force);
+            physics.enabled = false;
+            movement.enabled = false;
+            animator.enabled = false;
+            physics.WiggleFor(hitstop_amount);
+            StartCoroutine(HitstopApplyHit(physics));
             gc.AddTouchTo(team);
         }
     }

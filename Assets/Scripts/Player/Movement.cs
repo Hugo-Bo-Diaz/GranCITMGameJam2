@@ -20,6 +20,12 @@ public class Movement : MonoBehaviour
     public string vertical_input = "Vertical 1";
     public string dash_input = "Dash 1";
 
+    [Header("Particle Prefabs")]
+    public GameObject bubble_stella;
+
+    [Header("Audios")]
+    public AudioClip turbo;
+
 
     private Vector2 wanted_direction;
     private Vector2 direction = new Vector2(1, 0);
@@ -31,6 +37,7 @@ public class Movement : MonoBehaviour
     Rigidbody2D rb;
     private SpriteRenderer Renderer2D;
     private Attack attack_script;
+    private AudioSource audio_source;
 
 
 
@@ -45,6 +52,7 @@ public class Movement : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         Renderer2D = GetComponent<SpriteRenderer>();
         attack_script = GetComponent<Attack>();
+        audio_source = GetComponent<AudioSource>();
 
     }
 
@@ -68,8 +76,12 @@ public class Movement : MonoBehaviour
         if(!turboing && Input.GetButton(dash_input))
         {
             turboing = true;
+            audio_source.clip = turbo;
+            audio_source.Play();
             StartCoroutine(Turbo());
         }
+
+        if(max_speed == turbo_max_speed) Instantiate(bubble_stella, transform.position + new Vector3(Random.Range(-30, 30), Random.Range(-30, 30)), transform.rotation);
         
 
         // If the stick is neutral, go towards last direction and set wanted speed to 0
