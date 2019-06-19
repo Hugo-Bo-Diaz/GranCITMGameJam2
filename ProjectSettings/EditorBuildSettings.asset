@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Main Menu.unity
     guid: 10f85504c418597419701be44de6d973
   - enabled: 1
+    path: "Assets/Scenes/Lori\xE9n Scene two the electric bogaloo.unity"
+    guid: ff5c462f8d961f94a994e3a313643564
+  - enabled: 1
     path: Assets/Scenes/Lucas Scene.unity
     guid: 804e71ab6d7ab66468023cd95ad32ac7
   m_configObjects: {}
