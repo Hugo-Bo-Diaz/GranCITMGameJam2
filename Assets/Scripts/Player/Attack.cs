@@ -35,8 +35,13 @@ public class Attack : MonoBehaviour
     [Header("Team")]
     public string team;
 
+    AudioSource audio;
+
+    public AudioClip hitSound;
+    public AudioClip fishWhiff;
     void Start()
     {
+        audio = GetComponent<AudioSource>();
         movement = GetComponent<Movement>();
         gc = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameController>();
         animator = GetComponent<Animator>();
@@ -53,6 +58,7 @@ public class Attack : MonoBehaviour
         if (attacking)
         {
             if (attack_first_frame) {
+                audio.PlayOneShot(fishWhiff);
                 attack_start_time = Time.time;
                 attack_first_frame = false;
                 // Play animation
@@ -91,7 +97,7 @@ public class Attack : MonoBehaviour
         Debug.Log("bum");
         if (collision.gameObject.tag == "Ball")
         {
-
+            collision.gameObject.GetComponent<AudioSource>().PlayOneShot(hitSound);
             Vector3 coll_centre = collision.bounds.center;
             Vector3 pos = melee_attack.bounds.center;
             Vector3 diff = coll_centre - pos;
