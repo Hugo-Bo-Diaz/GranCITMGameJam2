@@ -20,6 +20,9 @@ public class Movement : MonoBehaviour
     public string vertical_input = "Vertical 1";
     public string dash_input = "Dash 1";
 
+    [Header("Particle Prefabs")]
+    public GameObject bubble_stella;
+
 
     private Vector2 wanted_direction;
     private Vector2 direction = new Vector2(1, 0);
@@ -70,6 +73,8 @@ public class Movement : MonoBehaviour
             turboing = true;
             StartCoroutine(Turbo());
         }
+
+        if(max_speed == turbo_max_speed) Instantiate(bubble_stella, transform.position + new Vector3(Random.Range(-30, 30), Random.Range(-30, 30)), transform.rotation);
         
 
         // If the stick is neutral, go towards last direction and set wanted speed to 0
