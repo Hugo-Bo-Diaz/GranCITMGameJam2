@@ -23,6 +23,9 @@ public class Movement : MonoBehaviour
     [Header("Particle Prefabs")]
     public GameObject bubble_stella;
 
+    [Header("Audios")]
+    public AudioClip turbo;
+
 
     private Vector2 wanted_direction;
     private Vector2 direction = new Vector2(1, 0);
@@ -34,6 +37,7 @@ public class Movement : MonoBehaviour
     Rigidbody2D rb;
     private SpriteRenderer Renderer2D;
     private Attack attack_script;
+    private AudioSource audio_source;
 
 
 
@@ -48,6 +52,7 @@ public class Movement : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         Renderer2D = GetComponent<SpriteRenderer>();
         attack_script = GetComponent<Attack>();
+        audio_source = GetComponent<AudioSource>();
 
     }
 
@@ -71,6 +76,8 @@ public class Movement : MonoBehaviour
         if(!turboing && Input.GetButton(dash_input))
         {
             turboing = true;
+            audio_source.clip = turbo;
+            audio_source.Play();
             StartCoroutine(Turbo());
         }
 
