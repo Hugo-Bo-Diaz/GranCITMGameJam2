@@ -98,6 +98,7 @@ public class Attack : MonoBehaviour
 
             Vector3 particle_spawn = pos += diff;
 
+            // Looks bad?
             Instantiate(particle_spawner, particle_spawn, transform.rotation);
             melee_attack.enabled = false;
 
@@ -108,7 +109,6 @@ public class Attack : MonoBehaviour
             animator.enabled = false;
             physics.WiggleFor(hitstop_amount);
             StartCoroutine(HitstopApplyHit(physics));
-            
             gc.AddTouchTo(team);
         }
     }

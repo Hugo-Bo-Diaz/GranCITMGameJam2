@@ -20,11 +20,14 @@ public class BubblePhysics : MonoBehaviour
     Vector2 direction = new Vector2(0f, 0f);
     Rigidbody2D rb;
 
+    private SpriteRenderer sr;
+
 
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        sr = GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
@@ -40,7 +43,7 @@ public class BubblePhysics : MonoBehaviour
         if (Time.time - time_ungravity_start < time_ungravity)
         {
             frame_max_speed = max_speed;
-            Instantiate(bubble_stella, transform.position + new Vector3(Random.Range(-100,100), Random.Range(-100, 100)), transform.rotation);
+            if(sr.enabled)  Instantiate(bubble_stella, transform.position + new Vector3(Random.Range(-100,100), Random.Range(-100, 100)), transform.rotation);
 
         }
 
