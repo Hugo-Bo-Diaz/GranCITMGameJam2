@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public struct Team
 {
@@ -206,8 +207,9 @@ public class GameController : MonoBehaviour
             score_announcer.color = coral_color;
             score_outlinner.effectColor = coral_outline_color;
         }
-        Application.LoadLevel("Credits");
         yield return new WaitForSeconds(3.0f);
+        SceneManager.LoadScene("Credits");
+
     }
     public void TeamScored(string team, string type)
     {
@@ -228,7 +230,7 @@ public class GameController : MonoBehaviour
 
 
         // Reset ball
-        if(team_alga.score < total_score && team_alga.score < total_score)
+        if(team_coral.score < total_score && team_alga.score < total_score)
             StartCoroutine(ResetGame(team, type));
         else if(team_alga.score >= total_score){
             StartCoroutine(EndGame("alga"));
