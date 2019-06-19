@@ -16,8 +16,8 @@ public class Attack : MonoBehaviour
     [Header("Attack vars (s)")]
     public float startup;
     public float attack_duration;
-
     public float attack_force = 20;
+    public float hitstop_amount = 0.2f;
 
     [Header("Input")]
     public string attack_str = "Melee Attack 1";
@@ -29,12 +29,11 @@ public class Attack : MonoBehaviour
     private float attack_start_time = 0;
 
     private Movement movement;
+    private Animator animator;
     private GameController gc;
 
     [Header("Team")]
     public string team;
-
-    Animator animator;
 
     void Start()
     {
@@ -79,6 +78,14 @@ public class Attack : MonoBehaviour
 
     }
 
+    IEnumerator HitstopApplyHit(BubblePhysics physics)
+    {
+        yield return new WaitForSeconds(hitstop_amount);
+        physics.enabled = true;
+        movement.enabled = true;
+        animator.enabled = true;
+        physics.ApplyHit(movement.GetWantedDirection(), attack_force);
+    }
     private void OnTriggerEnter2D(Collider2D collision)
     {
         Debug.Log("bum");
@@ -92,10 +99,15 @@ public class Attack : MonoBehaviour
             Vector3 particle_spawn = pos += diff;
 
             Instantiate(particle_spawner, particle_spawn, transform.rotation);
-
             melee_attack.enabled = false;
+
+
             BubblePhysics physics = collision.gameObject.GetComponent<BubblePhysics>();
-            physics.ApplyHit(movement.GetWantedDirection(), attack_force);
+            physics.enabled = false;
+            movement.enabled = false;
+            animator.enabled = false;
+            StartCoroutine(HitstopApplyHit(physics));
+            
             gc.AddTouchTo(team);
         }
     }

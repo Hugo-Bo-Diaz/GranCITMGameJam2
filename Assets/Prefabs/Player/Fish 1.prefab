@@ -107,6 +107,8 @@ MonoBehaviour:
   horizontal_input: Horizontal 1
   vertical_input: Vertical 1
   dash_input: Dash 1
+  bubble_stella: {fileID: 6862251438543845258, guid: 34ae278a871b850409f2f0280998f667,
+    type: 3}
 --- !u!114 &1308590444
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -120,9 +122,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   melee_attack: {fileID: 1698707230181623645}
+  particle_spawner: {fileID: 4513583804357754134, guid: b6fc40a67e013ab49924fb86843292f2,
+    type: 3}
   startup: 0.1
-  attack_duration: 1
+  attack_duration: 0.5
   attack_force: 20
+  hitstop_amount: 0.2
   attack_str: Melee Attack 1
   team: alga
 --- !u!70 &8092999348980203458

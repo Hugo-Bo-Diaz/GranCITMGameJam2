@@ -720,16 +720,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2388635432354851774, guid: 696ab7ddff6a7e0489262064e5587e5c,
-        type: 3}
-      propertyPath: bubble_stella
-      value: 
-      objectReference: {fileID: 6862251438543845258, guid: 34ae278a871b850409f2f0280998f667,
-        type: 3}
-    - target: {fileID: 1308590444, guid: 696ab7ddff6a7e0489262064e5587e5c, type: 3}
-      propertyPath: attack_duration
-      value: 0.5
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 696ab7ddff6a7e0489262064e5587e5c, type: 3}
 --- !u!1 &484266569
@@ -1120,17 +1110,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5517783565744712430, guid: f7eba7e535e310b438eb7124ca90afba,
-        type: 3}
-      propertyPath: bubble_stella
-      value: 
-      objectReference: {fileID: 6862251438543845258, guid: 34ae278a871b850409f2f0280998f667,
-        type: 3}
-    - target: {fileID: 7905288141498482748, guid: f7eba7e535e310b438eb7124ca90afba,
-        type: 3}
-      propertyPath: attack_duration
-      value: 0.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f7eba7e535e310b438eb7124ca90afba, type: 3}
@@ -2073,17 +2052,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8775798304591461847, guid: 311ea044c4d0e814284377da89fe4632,
-        type: 3}
-      propertyPath: bubble_stella
-      value: 
-      objectReference: {fileID: 6862251438543845258, guid: 34ae278a871b850409f2f0280998f667,
-        type: 3}
-    - target: {fileID: 6408557719396390661, guid: 311ea044c4d0e814284377da89fe4632,
-        type: 3}
-      propertyPath: attack_duration
-      value: 0.5
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 311ea044c4d0e814284377da89fe4632, type: 3}
 --- !u!1 &1916167685
@@ -2360,17 +2328,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5522206224138849253, guid: 9b855727b099cc4489ee05741ff85631,
-        type: 3}
-      propertyPath: bubble_stella
-      value: 
-      objectReference: {fileID: 6862251438543845258, guid: 34ae278a871b850409f2f0280998f667,
-        type: 3}
-    - target: {fileID: 7891698567137255735, guid: 9b855727b099cc4489ee05741ff85631,
-        type: 3}
-      propertyPath: attack_duration
-      value: 0.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9b855727b099cc4489ee05741ff85631, type: 3}
