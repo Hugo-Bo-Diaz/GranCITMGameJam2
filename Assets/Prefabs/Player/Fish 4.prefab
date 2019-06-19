@@ -163,6 +163,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7891698567137255735, guid: 9b855727b099cc4489ee05741ff85631,
+        type: 3}
+      propertyPath: melee_attack
+      value: 
+      objectReference: {fileID: 8801789144276829709}
+    - target: {fileID: 7891698567137255735, guid: 9b855727b099cc4489ee05741ff85631,
+        type: 3}
+      propertyPath: attack_str
+      value: Melee Attack 4
+      objectReference: {fileID: 0}
     - target: {fileID: 5522206224138849253, guid: 9b855727b099cc4489ee05741ff85631,
         type: 3}
       propertyPath: horizontal_input
@@ -178,16 +188,17 @@ PrefabInstance:
       propertyPath: dash_input
       value: Dash 4
       objectReference: {fileID: 0}
-    - target: {fileID: 7891698567137255735, guid: 9b855727b099cc4489ee05741ff85631,
+    - target: {fileID: 5522206224138849254, guid: 9b855727b099cc4489ee05741ff85631,
         type: 3}
-      propertyPath: melee_attack
+      propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 8801789144276829709}
-    - target: {fileID: 7891698567137255735, guid: 9b855727b099cc4489ee05741ff85631,
+      objectReference: {fileID: 21300000, guid: 458e5e9055d26c146bc5007d8b5716da,
         type: 3}
-      propertyPath: attack_str
-      value: Melee Attack 4
-      objectReference: {fileID: 0}
+    - target: {fileID: 7724924894926787013, guid: 9b855727b099cc4489ee05741ff85631,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 3666417b2a0a94d4da2a0b82e3c43c80, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9b855727b099cc4489ee05741ff85631, type: 3}
 --- !u!1 &5517783565744712431 stripped
