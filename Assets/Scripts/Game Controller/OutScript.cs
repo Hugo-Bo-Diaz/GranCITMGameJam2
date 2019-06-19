@@ -10,7 +10,7 @@ public class OutScript : MonoBehaviour
     {
         if (collision.gameObject.tag == "Ball")
         {
-            gameController.TeamScored(gameController.LastTouchedPoint(), "floor");
+            gameController.TeamScored(gameController.LastTouchedPoint(), "out");
             Instantiate(prefab, collision.transform.position, collision.transform.rotation);
             collision.transform.position = new Vector3(100000, 100000, collision.transform.position.z);
         }
