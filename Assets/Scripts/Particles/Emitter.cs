@@ -12,7 +12,9 @@ public class Emitter : MonoBehaviour
         while (initial_spawn_angle < 360)
         {
             Instantiate(to_emmit, transform.position, Quaternion.Euler(0,0,initial_spawn_angle));
-            initial_spawn_angle += 36;
+            initial_spawn_angle += 10;
         }
+
+        Destroy(this.gameObject);
     }
 }
