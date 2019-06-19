@@ -37,6 +37,8 @@ public class GameController : MonoBehaviour
    Team team_alga;
    Team team_coral;
 
+   public Text score_announcer;
+   public Animator score_animator;
    public GameObject player1;
    public GameObject player2;
    public GameObject player3;
@@ -53,6 +55,7 @@ public class GameController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        score_announcer.enabled = false;
         team_alga =  new Team(player1, player2, true, score_alga);
         team_alga.UpdateScore();
         team_coral = new Team(player1, player2, false, score_coral);
@@ -74,6 +77,8 @@ public class GameController : MonoBehaviour
         if (team_coral.touches >= 4)
         {
             TeamScored("alga", "touches");
+            Instantiate(prefab, ball.transform.position, ball.transform.rotation);
+            ball.transform.position = new Vector3(100000, 100000, ball.transform.position.z);
         }
 
     }
@@ -94,7 +99,33 @@ public class GameController : MonoBehaviour
 
     IEnumerator ResetGame(string team, string point_type)
     {
+        score_announcer.enabled = true;
+        score_animator.SetTrigger("start");
         // Display UI
+        if(point_type == "floor")
+        {
+            score_announcer.text = "Don't drop the ball !!!";
+        }
+
+        if (point_type == "out")
+        {
+            score_announcer.text = "Don't let the ball go outside the field!!!";
+        }
+
+        if(point_type == "touches")
+        {
+            score_announcer.text = "Don't hit the ball more than three times !!!";
+        }
+
+        yield return new WaitForSeconds(2.0f);
+        score_animator.SetTrigger("next");
+
+        if (team == "alga")
+        {
+            score_announcer.text = "Team Alga Scores !!!";
+        }
+        else
+            score_announcer.text = "Team Coral Scores !!!";
 
         yield return new WaitForSeconds(2.0f);
         if (team == "alga") ball.transform.SetPositionAndRotation(alga_ball_spawn.transform.position, Quaternion.identity);
@@ -103,7 +134,8 @@ public class GameController : MonoBehaviour
             ball.transform.SetPositionAndRotation(coral_ball_spawn.transform.position, Quaternion.identity);
 
         }
-
+        score_announcer.enabled = false;
+        score_animator.SetTrigger("end");
     }
     public void TeamScored(string team, string type)
     {
@@ -111,6 +143,7 @@ public class GameController : MonoBehaviour
         {
             team_alga.score += 1;
             team_alga.UpdateScore();
+
         }
         else
         {
