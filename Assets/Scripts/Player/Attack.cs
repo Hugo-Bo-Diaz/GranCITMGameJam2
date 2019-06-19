@@ -9,6 +9,8 @@ public class Attack : MonoBehaviour
     [Header("Colliders")]
     public Collider2D melee_attack;
 
+    [Header("Particles")]
+    public GameObject particle_spawner;
 
 
     [Header("Attack vars (s)")]
@@ -82,6 +84,15 @@ public class Attack : MonoBehaviour
         Debug.Log("bum");
         if (collision.gameObject.tag == "Ball")
         {
+
+            Vector3 coll_centre = collision.bounds.center;
+            Vector3 pos = melee_attack.bounds.center;
+            Vector3 diff = coll_centre - pos;
+
+            Vector3 particle_spawn = pos += diff;
+
+            Instantiate(particle_spawner, particle_spawn, transform.rotation);
+
             melee_attack.enabled = false;
             BubblePhysics physics = collision.gameObject.GetComponent<BubblePhysics>();
             physics.ApplyHit(movement.GetWantedDirection(), attack_force);
