@@ -20,7 +20,7 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: 21300000, guid: ff8afcd095a7bb441b61ffa70c69003f, type: 3}
+      value: {fileID: 21300000, guid: 0fe0c094966e5934686841892d7bb36e, type: 3}
     - time: 0.083333336
       value: {fileID: 21300000, guid: dfda67bbefa9cb845b354a8b7f419004, type: 3}
     - time: 0.16666667
@@ -38,9 +38,9 @@ AnimationClip:
     - time: 0.6666667
       value: {fileID: 21300000, guid: f5f37d8582a41d34b82c3228e6c17be8, type: 3}
     - time: 0.75
-      value: {fileID: 21300000, guid: a8b8dbeac16847249b0e650c77c61b48, type: 3}
+      value: {fileID: 21300000, guid: 489c53715a7c9c04790425bea835faeb, type: 3}
     - time: 0.8333333
-      value: {fileID: 21300000, guid: ee2d1f0bb623aed49a496c83c62e7e3a, type: 3}
+      value: {fileID: 21300000, guid: 723b5a349560bd44ab8d23b7c7361e27, type: 3}
     - time: 0.9166667
       value: {fileID: 21300000, guid: f99df1695df56714783abdeafbf4c584, type: 3}
     - time: 1
@@ -138,7 +138,7 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: 21300000, guid: ff8afcd095a7bb441b61ffa70c69003f, type: 3}
+    - {fileID: 21300000, guid: 0fe0c094966e5934686841892d7bb36e, type: 3}
     - {fileID: 21300000, guid: dfda67bbefa9cb845b354a8b7f419004, type: 3}
     - {fileID: 21300000, guid: a1ca8f3a36b93864b8050986be276b6f, type: 3}
     - {fileID: 21300000, guid: f58bd6bc63eee8143ad9882efb1b9ab6, type: 3}
@@ -147,8 +147,8 @@ AnimationClip:
     - {fileID: 21300000, guid: 193d570a5e6028545a1c64ab681c1264, type: 3}
     - {fileID: 21300000, guid: 412dda8606e735444aca1f9ed559e70f, type: 3}
     - {fileID: 21300000, guid: f5f37d8582a41d34b82c3228e6c17be8, type: 3}
-    - {fileID: 21300000, guid: a8b8dbeac16847249b0e650c77c61b48, type: 3}
-    - {fileID: 21300000, guid: ee2d1f0bb623aed49a496c83c62e7e3a, type: 3}
+    - {fileID: 21300000, guid: 489c53715a7c9c04790425bea835faeb, type: 3}
+    - {fileID: 21300000, guid: 723b5a349560bd44ab8d23b7c7361e27, type: 3}
     - {fileID: 21300000, guid: f99df1695df56714783abdeafbf4c584, type: 3}
     - {fileID: 21300000, guid: f1dc8faa668a9b0468a35495a6c98368, type: 3}
     - {fileID: 21300000, guid: 178a8c00c7dca884dbb92d932bbbc0b3, type: 3}
