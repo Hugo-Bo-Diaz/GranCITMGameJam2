@@ -42,6 +42,7 @@ public class GameController : MonoBehaviour
    public GameObject player3;
    public GameObject player4;
 
+    public GameObject prefab;
     public Text score_alga;
     public Text score_coral;
 
@@ -62,10 +63,18 @@ public class GameController : MonoBehaviour
     void Update()
     {
         // Alga touched too many times
-        if (team_alga.touches >= 4) TeamScored("coral", "touches");
+        if (team_alga.touches >= 4)
+        {
+            TeamScored("coral", "touches");
+            Instantiate(prefab, ball.transform.position, ball.transform.rotation);
+            ball.transform.position = new Vector3(100000, 100000, ball.transform.position.z);
+        }
 
         // Coral touched too many times
-        if(team_coral.touches >= 4) TeamScored("alga", "touches");
+        if (team_coral.touches >= 4)
+        {
+            TeamScored("alga", "touches");
+        }
 
     }
 
@@ -88,8 +97,12 @@ public class GameController : MonoBehaviour
         // Display UI
 
         yield return new WaitForSeconds(2.0f);
-        if(team == "alga") ball.transform.SetPositionAndRotation(alga_ball_spawn.transform.position, Quaternion.identity);
-        else ball.transform.SetPositionAndRotation(coral_ball_spawn.transform.position, Quaternion.identity);
+        if (team == "alga") ball.transform.SetPositionAndRotation(alga_ball_spawn.transform.position, Quaternion.identity);
+        else
+        {
+            ball.transform.SetPositionAndRotation(coral_ball_spawn.transform.position, Quaternion.identity);
+
+        }
 
     }
     public void TeamScored(string team, string type)
