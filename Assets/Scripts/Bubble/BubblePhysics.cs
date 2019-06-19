@@ -13,6 +13,8 @@ public class BubblePhysics : MonoBehaviour
     public float time_ungravity = 1;
     public float time_ungravity_start = -10;
 
+    public GameObject bubble_stella;
+
 
     float current_speed = 0.5f;
     Vector2 direction = new Vector2(0f, 0f);
@@ -38,6 +40,8 @@ public class BubblePhysics : MonoBehaviour
         if (Time.time - time_ungravity_start < time_ungravity)
         {
             frame_max_speed = max_speed;
+            Instantiate(bubble_stella, transform.position + new Vector3(Random.Range(-100,100), Random.Range(-100, 100)), transform.rotation);
+
         }
 
         if (new_direction.y > 0)  current_speed = Mathf.Clamp(current_speed, min_speed, frame_max_speed);
