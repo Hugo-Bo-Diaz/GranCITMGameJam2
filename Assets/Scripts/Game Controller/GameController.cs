@@ -77,6 +77,8 @@ public class GameController : MonoBehaviour
         if (team_coral.touches >= 4)
         {
             TeamScored("alga", "touches");
+            Instantiate(prefab, ball.transform.position, ball.transform.rotation);
+            ball.transform.position = new Vector3(100000, 100000, ball.transform.position.z);
         }
 
     }
