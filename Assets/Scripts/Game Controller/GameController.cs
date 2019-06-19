@@ -38,6 +38,7 @@ public class GameController : MonoBehaviour
    Team team_coral;
 
    public Text score_announcer;
+   public Outline score_outlinner;
    public Animator score_animator;
    public GameObject player1;
    public GameObject player2;
@@ -45,17 +46,37 @@ public class GameController : MonoBehaviour
    public GameObject player4;
 
     public GameObject prefab;
+
     public Text score_alga;
+    public Outline alga_outline;
     public Text score_coral;
+    public Outline coral_outline;
+    
 
     public GameObject ball;
     public GameObject coral_ball_spawn;
     public GameObject alga_ball_spawn;
 
+    Color original_color;
+    Color original_outline_color;
+
+    Color alga_color;
+    Color alga_outline_color;
+
+    Color coral_color;
+    Color coral_outline_color;
     // Start is called before the first frame update
     void Start()
     {
         score_announcer.enabled = false;
+        original_color = score_announcer.color;
+        original_outline_color = score_outlinner.effectColor;
+        alga_color = score_alga.color;
+        alga_outline_color = alga_outline.effectColor;
+
+        coral_color = score_coral.color;
+        coral_outline_color = coral_outline.effectColor;
+
         team_alga =  new Team(player1, player2, true, score_alga);
         team_alga.UpdateScore();
         team_coral = new Team(player1, player2, false, score_coral);
@@ -100,6 +121,8 @@ public class GameController : MonoBehaviour
     IEnumerator ResetGame(string team, string point_type)
     {
         score_announcer.enabled = true;
+        score_announcer.color = original_color;
+        score_outlinner.effectColor = original_outline_color;
         score_animator.SetTrigger("start");
         // Display UI
         if(point_type == "floor")
@@ -120,14 +143,22 @@ public class GameController : MonoBehaviour
         yield return new WaitForSeconds(2.0f);
         score_animator.SetTrigger("next");
 
+
+
         if (team == "alga")
         {
             score_announcer.text = "Team Alga Scores !!!";
+            score_announcer.color = alga_color;
+            score_outlinner.effectColor = alga_outline_color;
         }
         else
+        {
             score_announcer.text = "Team Coral Scores !!!";
+            score_announcer.color = coral_color;
+            score_outlinner.effectColor = coral_outline_color;
+        }
 
-        yield return new WaitForSeconds(2.0f);
+        yield return new WaitForSeconds(3.0f);
         if (team == "alga") ball.transform.SetPositionAndRotation(alga_ball_spawn.transform.position, Quaternion.identity);
         else
         {
