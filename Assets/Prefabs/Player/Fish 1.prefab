@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 1308590444}
   - component: {fileID: 8092999348980203458}
   - component: {fileID: 3825176296146172958}
-  - component: {fileID: 8314877991842902821}
+  - component: {fileID: 482026223296164254}
   m_Layer: 8
   m_Name: Fish 1
   m_TagString: Player
@@ -98,12 +98,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   max_speed: 10
+  normal_max_speed: 10
+  turbo_max_speed: 40
   time_to_accel: 0.8
   deceleration_multiplicator: 5
   min_angle: 10
   rotation_speed: 360
   horizontal_input: Horizontal 1
   vertical_input: Vertical 1
+  dash_input: Dash 1
 --- !u!114 &1308590444
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -153,13 +156,13 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!95 &8314877991842902821
+--- !u!95 &482026223296164254
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 0

@@ -9,6 +9,8 @@ public class Attack : MonoBehaviour
     [Header("Colliders")]
     public Collider2D melee_attack;
 
+
+
     [Header("Attack vars (s)")]
     public float startup;
     public float attack_duration;
@@ -30,12 +32,13 @@ public class Attack : MonoBehaviour
     [Header("Team")]
     public string team;
 
-    
+    Animator animator;
+
     void Start()
     {
         movement = GetComponent<Movement>();
         gc = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameController>();
-
+        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -52,6 +55,7 @@ public class Attack : MonoBehaviour
                 attack_start_time = Time.time;
                 attack_first_frame = false;
                 // Play animation
+                animator.SetTrigger("Attacking");
             }
 
             if (Time.time - attack_start_time > startup && !collider_active)
