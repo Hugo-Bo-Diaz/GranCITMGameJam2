@@ -179,6 +179,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1583884437621768851, guid: 96249ef749fb7464895ea76e661f4349,
+        type: 3}
+      propertyPath: bubble_stella
+      value: 
+      objectReference: {fileID: 6862251438543845258, guid: 34ae278a871b850409f2f0280998f667,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 96249ef749fb7464895ea76e661f4349, type: 3}
 --- !u!1 &54913972

@@ -70,7 +70,7 @@ public class GameController : MonoBehaviour
         {
             TeamScored("coral", "touches");
             Instantiate(prefab, ball.transform.position, ball.transform.rotation);
-            ball.transform.position = new Vector3(100000, 100000, ball.transform.position.z);
+            ball.GetComponent<SpriteRenderer>().enabled = false;
         }
 
         // Coral touched too many times
@@ -78,7 +78,7 @@ public class GameController : MonoBehaviour
         {
             TeamScored("alga", "touches");
             Instantiate(prefab, ball.transform.position, ball.transform.rotation);
-            ball.transform.position = new Vector3(100000, 100000, ball.transform.position.z);
+            ball.GetComponent<SpriteRenderer>().enabled = false;
         }
 
     }
@@ -134,6 +134,7 @@ public class GameController : MonoBehaviour
             ball.transform.SetPositionAndRotation(coral_ball_spawn.transform.position, Quaternion.identity);
 
         }
+        ball.GetComponent<SpriteRenderer>().enabled = true;
         score_announcer.enabled = false;
         score_animator.SetTrigger("end");
     }

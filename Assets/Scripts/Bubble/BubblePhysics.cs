@@ -13,16 +13,21 @@ public class BubblePhysics : MonoBehaviour
     public float time_ungravity = 1;
     public float time_ungravity_start = -10;
 
+    public GameObject bubble_stella;
+
 
     float current_speed = 0.5f;
     Vector2 direction = new Vector2(0f, 0f);
     Rigidbody2D rb;
+
+    private SpriteRenderer sr;
 
 
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        sr = GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
@@ -38,6 +43,8 @@ public class BubblePhysics : MonoBehaviour
         if (Time.time - time_ungravity_start < time_ungravity)
         {
             frame_max_speed = max_speed;
+            if(sr.enabled)  Instantiate(bubble_stella, transform.position + new Vector3(Random.Range(-100,100), Random.Range(-100, 100)), transform.rotation);
+
         }
 
         if (new_direction.y > 0)  current_speed = Mathf.Clamp(current_speed, min_speed, frame_max_speed);
@@ -65,5 +72,22 @@ public class BubblePhysics : MonoBehaviour
         {
             
         }
+    }
+
+    IEnumerator WiggleCorutine(float time)
+    {
+        float time_wiggling = 0;
+        Vector3 initial_position = transform.position;
+
+        while(time_wiggling < time)
+        {
+            time_wiggling += Time.deltaTime;
+            transform.position = initial_position += new Vector3(Random.Range(-10, 10), Random.Range(-10, 10));
+            yield return null;
+        }
+    }
+    public void WiggleFor(float time)
+    {
+        StartCoroutine(WiggleCorutine(time));
     }
 }
