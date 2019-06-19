@@ -187,6 +187,27 @@ PrefabInstance:
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 96249ef749fb7464895ea76e661f4349, type: 3}
+--- !u!1 &33945009 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6406595653277810457, guid: 95e5ad06ec82e7b4a897af01d8a37f5e,
+    type: 3}
+  m_PrefabInstance: {fileID: 592590280}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &33945010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 33945009}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -900027084, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0.27455997, g: 0, b: 1, a: 0.5}
+  m_EffectDistance: {x: 5, y: -5}
+  m_UseGraphicAlpha: 1
 --- !u!1 &54913972
 GameObject:
   m_ObjectHideFlags: 0
@@ -372,6 +393,7 @@ GameObject:
   - component: {fileID: 318852568}
   - component: {fileID: 318852567}
   - component: {fileID: 318852566}
+  - component: {fileID: 318852569}
   m_Layer: 5
   m_Name: Score Coral
   m_TagString: Untagged
@@ -428,18 +450,33 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 318852565}
-  m_LocalRotation: {x: 0, y: 0, z: -0.008726465, w: 0.999962}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 929627112}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 342.2, y: -460}
   m_SizeDelta: {x: 684.3, y: 160}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &318852569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 318852565}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -900027084, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0.8470589, g: 0.3803922, b: 0.023529414, a: 0.5}
+  m_EffectDistance: {x: 5, y: -5}
+  m_UseGraphicAlpha: 1
 --- !u!1 &362428283
 GameObject:
   m_ObjectHideFlags: 0
@@ -1042,6 +1079,21 @@ PrefabInstance:
       propertyPath: m_FontData.m_MaxSize
       value: 300
       objectReference: {fileID: 0}
+    - target: {fileID: 6406595653277810460, guid: 95e5ad06ec82e7b4a897af01d8a37f5e,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6406595653277810460, guid: 95e5ad06ec82e7b4a897af01d8a37f5e,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.8462279
+      objectReference: {fileID: 0}
+    - target: {fileID: 6406595653277810460, guid: 95e5ad06ec82e7b4a897af01d8a37f5e,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 95e5ad06ec82e7b4a897af01d8a37f5e, type: 3}
 --- !u!1001 &610802237
@@ -1203,6 +1255,7 @@ GameObject:
   - component: {fileID: 810284087}
   - component: {fileID: 810284086}
   - component: {fileID: 810284085}
+  - component: {fileID: 810284088}
   m_Layer: 5
   m_Name: Score Alga
   m_TagString: Untagged
@@ -1259,18 +1312,33 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 810284084}
-  m_LocalRotation: {x: 0, y: 0, z: -0.008726465, w: 0.999962}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 929627112}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -312, y: -460}
   m_SizeDelta: {x: 624.1, y: 160}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &810284088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 810284084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -900027084, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0.65882355, g: 0, b: 0.24313727, a: 1}
+  m_EffectDistance: {x: 5, y: -5}
+  m_UseGraphicAlpha: 1
 --- !u!1 &911257079
 GameObject:
   m_ObjectHideFlags: 0
@@ -1334,6 +1402,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   score_announcer: {fileID: 1730451042}
+  score_outlinner: {fileID: 33945010}
   score_animator: {fileID: 1730451041}
   player1: {fileID: 398118386}
   player2: {fileID: 0}
@@ -1341,7 +1410,9 @@ MonoBehaviour:
   player4: {fileID: 0}
   prefab: {fileID: 2135061808217502539, guid: 1938ba1fa39ad154690a4d7e5d92c4dc, type: 3}
   score_alga: {fileID: 810284085}
+  alga_outline: {fileID: 810284088}
   score_coral: {fileID: 318852566}
+  coral_outline: {fileID: 318852569}
   ball: {fileID: 1541248780}
   coral_ball_spawn: {fileID: 201295898}
   alga_ball_spawn: {fileID: 911257079}
@@ -1851,7 +1922,7 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 592590280}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 33945009}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
@@ -2329,5 +2400,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5522206224138849254, guid: 9b855727b099cc4489ee05741ff85631,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 233778e234e358f4fafc763af002cea7,
+        type: 3}
+    - target: {fileID: 7724924894926787013, guid: 9b855727b099cc4489ee05741ff85631,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: c350214c11fe2a24391637d94e563732, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9b855727b099cc4489ee05741ff85631, type: 3}
