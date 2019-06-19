@@ -106,6 +106,7 @@ public class Attack : MonoBehaviour
             physics.enabled = false;
             movement.enabled = false;
             animator.enabled = false;
+            physics.WiggleFor(hitstop_amount);
             StartCoroutine(HitstopApplyHit(physics));
             
             gc.AddTouchTo(team);

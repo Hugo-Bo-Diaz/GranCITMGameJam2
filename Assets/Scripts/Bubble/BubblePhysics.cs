@@ -70,4 +70,21 @@ public class BubblePhysics : MonoBehaviour
             
         }
     }
+
+    IEnumerator WiggleCorutine(float time)
+    {
+        float time_wiggling = 0;
+        Vector3 initial_position = transform.position;
+
+        while(time_wiggling < time)
+        {
+            time_wiggling += Time.deltaTime;
+            transform.position = initial_position += new Vector3(Random.Range(-10, 10), Random.Range(-10, 10));
+            yield return null;
+        }
+    }
+    public void WiggleFor(float time)
+    {
+        StartCoroutine(WiggleCorutine(time));
+    }
 }
