@@ -120,8 +120,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   melee_attack: {fileID: 2499272648269339556}
-  startup: 0
-  attack_duration: 2
+  startup: 0.1
+  attack_duration: 1
   attack_force: 20
   attack_str: Melee Attack 1
   team: alga
